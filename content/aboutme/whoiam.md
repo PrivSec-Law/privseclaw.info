@@ -14,16 +14,28 @@ disableShare: true
 
 Welcome! I am Luke Arbuthnot and I'm glad that you have come across my website. I am currently a law student pursuing a LLM in Technology Law and Innovation at the Rijksuniversiteit Groningen in the Netherlands. This website serves as my personal webpage and hosts my blog Privacy, Security and the Law which for which I periodically write posts. 
 
-## Privacy, Security and the Law Blog
+## Privacy, Security and the Law
 
-### The Musings of a Digital Privacy Enthusiast and a Lawyer in Training
+### The Aims of Privacy, Security and the Law
 
-In this blog I delve into the complex intersection of privacy, security, and the law in our hyper-digitized age.
+The aims and purposes of this blog are:
 
-The prevalence of rampant state abuses of intelligence gathering powers and the presence of tech corporations engaging in surveillance capitalist practices has, without the informed knowledge or consent of the governed and users, created a world in which we are all being monitored and having our most intimate data placed on the permanent record.
+1.  To highlight the importance of digital privacy and security for the individual and society at large.
+    
+2.  To engage in the current discourse surrounding topics and themes such as: data protection, mass surveillance, digital privacy and security and the interplay between these with the law.
+    
+3.  To represent my personal views, opinions and analysis on happenings within the fields of privacy, security and the law.
+    
+4.  To educate individuals seeking to regain their digital privacy and improve online security by leveraging knowledge gained from the world of academia and rigorous self-education on these matters.
+    
+5.  To develop my analytical skills in a non-academic format through application of learned skills from higher education.
 
-These developments pose serious threats to our privacy and have far-reaching consequences for our liberties and fundamental freedoms. As technology advances and our digital footprint becomes increasingly large, it is more important than ever for individuals to understand the importance of protecting their online privacy and security.
+### What You Can Expect From This Blog
 
-Here, I will explore the many ways in which privacy, security, and the law intersect and how individuals can protect themselves and their sensitive information. From data breaches and online privacy to cyber-security and the legal frameworks that govern the collection and use of personal information, no topic is too big or too small for me to tackle. 
+The type of content to be expected from _Privacy, Security and the Law_ is:
 
-I have grown increasingly concerned at the state of our digital society that is increasingly becoming and arguably has become a dominant medium in which we live our lives. This blog is my attempt at organizing my thoughts on the matter in a coherent manner which hopefully so far has and will prove interesting and of value to you.
+1.  Analysis of what I deem to be the most important news relating to online privacy/ security from a technical and legal point of view.
+    
+2.  Recommendations and guides on how to reclaim your digital privacy and improve your online security.
+    
+3.  Opinions on issues and developments within the field of technology, digital politics and law.

@@ -82,36 +82,6 @@ The situation is not completely bleak and I would urge readers to not succumb to
     *   Research into the surveillance capabilities, practices and actions of public and private institutions
            
 
-### The Aims of Privacy, Security and the Law
-
-The aims and purposes of this blog are:
-
-1.  To highlight the importance of digital privacy and security for the individual and society at large.
-    
-2.  To engage in the current discourse surrounding topics and themes such as: data protection, mass surveillance, digital privacy and security and the interplay between these with the law.
-    
-3.  To represent my personal views, opinions and analysis on happenings within the fields of privacy, security and the law.
-    
-4.  To educate individuals seeking to regain their digital privacy and improve online security by leveraging knowledge gained from the world of academia and rigorous self-education on these matters.
-    
-5.  To develop my analytical skills in a non-academic format through application of learned skills from higher education.
-    
-
-### What You Can Expect From This Blog
-
-The type of content to be expected from _Privacy, Security and the Law_ is:
-
-1.  Analysis of what I deem to be the most important news relating to online privacy/ security from a technical and legal point of view.
-    
-2.  Recommendations and guides on how to reclaim your digital privacy and improve your online security.
-    
-3.  Opinions on issues and developments within the field of technology regulation and law as a whole.
-
-
-### A Final Note From Me
-
-If you have gotten this far through the first post of _Privacy, Security and the Law_, I would like to extend my heart-felt thanks! I have grown increasingly concerned at the state of our digital society that is increasingly becoming and arguably has become a dominant medium in which we live our lives. This blog is my attempt at organizing my thoughts on the matter in a coherent manner which hopefully so far has and will prove interesting and of value to you. Have a great day!
-
 * * *
 
 _“Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect. It is about choice, and having the power to control how you present yourself to the world.”_ __\-Bruce Schneier, Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World__
@@ -121,5 +91,9 @@ _“Privacy is an inherent human right, and a requirement for maintaining the hu
 _Disclaimer: I do not, by any means, claim to be an expert in matters relating to privacy, security and law or offer what can be construed as guaranteed fool-proof advice. What I do offer is an insight into these matters from someone who is highly invested in personal privacy/ security themselves and who is studying technology law at the level of higher education._
 
 * * *
+
+{{< substackiframe src="https://privseclaw.substack.com/embed" >}}
+
+* * * 
 
 {{< chat wearebeingwatched >}}

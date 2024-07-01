@@ -284,4 +284,8 @@ _Disclaimer: I do not, by any means, claim to be an expert in matters relating t
 
 * * *
 
+{{< substackiframe src="https://privseclaw.substack.com/embed" >}}
+
+* * * 
+
 {{< chat privacyguide >}}
