@@ -12,7 +12,7 @@ disableShare: true
 
 ## A Digital Privacy Enthusiast and a Lawyer in Training
 
-Welcome! I am Luke Arbuthnot and I'm glad that you have come across my website. I am currently a law student pursuing a LLM in Technology Law and Innovation at the Rijksuniversiteit Groningen in the Netherlands. This website serves as my personal webpage and hosts my blog Privacy, Security and the Law which for which I periodically write posts. 
+Welcome! I am Luke Arbuthnot and I'm glad that you have come across my website. I am currently a law student pursuing a LLM in Technology Law and Innovation at the Rijksuniversiteit Groningen in the Netherlands. This website serves as my personal webpage and hosts my blog Privacy, Security and the Law, for which I periodically write posts. 
 
 ## Privacy, Security and the Law
 

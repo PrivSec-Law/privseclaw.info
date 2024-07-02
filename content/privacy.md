@@ -64,7 +64,7 @@ You have the right to:
 
 ## Contact
 
-If you have any questions, concerns, or requests regarding this privacy policy, please contact me, Luke Crofton Arbuthnot, at [privseclaw@pm](mailto:privseclaw@pm.me).
+If you have any questions, concerns, or requests regarding this privacy policy, please contact me, Luke Crofton Arbuthnot, at [privseclaw@pm.me](mailto:privseclaw@pm.me).
 
 ## Changes to This Policy
 
