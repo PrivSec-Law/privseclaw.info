@@ -9,7 +9,7 @@ params:
   author: Luke Arbuthnot
   description: Musings of a privacy enthusiast and lawyer in training
   keywords: [Privacy, Security, Law]
-  defaultTheme: auto
+  defaultTheme: dark
   disableThemeToggle: false
   images: ["/privseclaw.png"]
   showReadingTime: true
@@ -42,8 +42,8 @@ params:
   profileMode: 
     enabled: true 
     title: Privacy, Security & the Law 
-    subtitle: "The personal webpage of a privacy enthusiast and lawyer in training - Luke Arbuthnot"
-    imageUrl: "/privseclaw.png" # optional
+    subtitle: "**The personal webpage of a privacy enthusiast and lawyer in training - Luke Arbuthnot**"
+    imageUrl: "/profilephoto.png" # optional
     imageTitle: "Logo" # optional
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
