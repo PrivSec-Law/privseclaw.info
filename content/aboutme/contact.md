@@ -10,8 +10,6 @@ weight: 30
 disableShare: true
 ---
 
-## Get in Touch
-
 - [My LinkedIn](https://www.linkedin.com/in/luke-arbuthnot-4bb337258?trk=&original_referer=)
 
 - [Email me](mailto:privseclaw@pm.me)
