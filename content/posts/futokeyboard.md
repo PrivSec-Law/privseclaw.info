@@ -13,7 +13,9 @@ summary: If you use Android your keyboard could be a security and privacy risk. 
 
 If you are using an Android device it is possible that your keyboard application is highly insecure and spying on you. 
 
-If you are using a third party keyboard (one that is not provided by default on your phone's operating system) this risk is highly likely. This is because most third party keyboard applications offer much more than simple text input. Personalized text prediction and auto correct is often delivered through your personal key inputs (how and what you type) being uploaded to the keyboard provider's severs. While making your life more convenient, [this is a privacy nightmare](https://www.howtogeek.com/335428/smartphone-keyboards-are-a-privacy-nightmare/#why-keyboards-are-so-dangerous). Think about all the things that you have typed into your phone's keyboard: highly intimate messages to loved ones and friends; sensitive medical records and confidential business information. You do not want this sort of information leaving your device and being sent to another party's servers. Why?
+If you are using a third party keyboard (one that is not provided by default on your phone's operating system) this risk is highly likely. This is because most third party keyboard applications offer much more than simple text input. Personalized text prediction and auto correct are often delivered through your personal key inputs (how and what you type) being uploaded to the keyboard provider's servers. While making your life more convenient, [this is a privacy nightmare](https://www.howtogeek.com/335428/smartphone-keyboards-are-a-privacy-nightmare/#why-keyboards-are-so-dangerous). 
+
+Think about all the things that you have typed into your phone's keyboard: highly intimate messages to loved ones and friends; sensitive medical records and confidential business information. You do not want this sort of information leaving your device and being sent to another party's servers. Why?
 
 Because the keyboard app you use may be malicious (malware deliberately designed to spy on you). In 2022 Google removed many malicious apps, including keyboards, that collectively had been downloaded a [staggering 10 million+ times.](https://wp.nyu.edu/itsecurity/2022/07/29/android-users-confirm-you-dont-have-malicious-apps-on-your-device/)
 
@@ -31,7 +33,7 @@ These risks are not exclusively limited to third party keyboard applications eit
 >
 >*"we estimate that up to one billion users are affected by these vulnerabilities. Given the scope of these vulnerabilities, the sensitivity of what users type on their devices, the ease with which these vulnerabilities may have been discovered, and that the Five Eyes have previously exploited similar vulnerabilities in Chinese apps for surveillance, it is possible that such users’ keystrokes may have also been under mass surveillance."* - [**The not-so-silent type, Vulnerabilities across keyboard apps reveal keystrokes to network eavesdroppers, Citizen Lab** ](https://citizenlab.ca/2024/04/vulnerabilities-across-keyboard-apps-reveal-keystrokes-to-network-eavesdroppers/)
 
-All of this raises the question. Why does your phones keyboard application need an internet connection? I'm going to hazard a guess that its because these companies want to extract your personal information for profit. The internet's business model is [Surveillance Capitalism](https://www.theguardian.com/books/2019/oct/04/shoshana-zuboff-surveillance-capitalism-assault-human-automomy-digital-privacy) after all! 
+All of this raises the question. Why does your phone's keyboard application need an internet connection? I'm going to hazard a guess that its because these companies want to extract your personal information for profit. The internet's business model is [Surveillance Capitalism](https://www.theguardian.com/books/2019/oct/04/shoshana-zuboff-surveillance-capitalism-assault-human-automomy-digital-privacy) after all! 
 
 This is where [FUTO Keyboard](https://keyboard.futo.org/) comes in! 
 
@@ -90,11 +92,11 @@ In the spirit of FUTO's mission the source code for the application is available
 
 #### Honor Based Payment 
 
-FUTO has chosen to implement an honor based payment method for the application. Choosing to not pay for FUTO Keyboard and use it during the eternal free trial period will not impact your ability to use it or enjoy all the features. As put by Louis Rossman, a prominent Right to Repair activist and FUTO member, using it without paying ["will be between you and your god."](https://www.youtube.com/watch?v=GYX92lLpZ20)
+FUTO has chosen to implement an honor based payment method for the application. Choosing to not pay for FUTO Keyboard and using it during the eternal free trial period will not impact your ability to use it or enjoy all the features. As put by Louis Rossman, a prominent Right to Repair activist and FUTO member, using it without paying ["will be between you and your god."](https://www.youtube.com/watch?v=GYX92lLpZ20)
 
 ### Final Remarks
 
-With essentially everything you do on an Android smartphone making use of the keyboard it is great to have the peace of mind that it does not connect to the internet. Highly intimate messages typed to loved ones and friends, sensitive medical records and confidential business information all go through your keyboard application. They should be private and secure. I don't trust Google, Samsung, Motorola or Huawei in the slightest and neither should you. The record is very clear on their anti-consumer and surveillance based business models. 
+With essentially everything you do on an Android smartphone making use of the keyboard it is great to have the peace of mind that it does not connect to the internet. Highly intimate messages typed to loved ones and friends, sensitive medical records and confidential business information all go through your keyboard application. They should be private and secure. I don't trust Google, Samsung, Motorola or Huawei in the slightest and neither should you. The record is very clear about their anti-consumer and surveillance based business models. 
 
 In place of these internet connected keyboard options, I would highly recommend FUTO's offer instead! 
 
