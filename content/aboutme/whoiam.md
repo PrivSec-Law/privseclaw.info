@@ -14,8 +14,6 @@ disableShare: true
 
 Welcome! I am Luke Arbuthnot and I'm glad that you have come across my website. I am currently a law student pursuing a LLM in Technology Law and Innovation at the Rijksuniversiteit Groningen in the Netherlands. This website serves as my personal webpage and hosts my blog Privacy, Security and the Law, for which I periodically write posts.
 
-{{< substackiframe src="https://privseclaw.substack.com/embed" >}}
-
 ## Privacy, Security and the Law
 
 ### The Aims of Privacy, Security and the Law

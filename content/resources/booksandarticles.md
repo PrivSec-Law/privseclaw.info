@@ -76,9 +76,9 @@ disableShare: true
 
 - Tufekci, Zeynep. "Engineering the public: Big data, surveillance and computational politics." First Monday (2014).
 - Bernays, Edward L. "The engineering of consent." The Annals of the American Academy of Political and Social Science 250.1 (1947): 113-120.
-- Gorton, W. A. (2016). Manipulating Citizens: How Political Campaigns’ Use of Behavioral Social Science Harms Democracy. New Political Science, 38(1), 61–80. https://doi.org/10.1080/07393148.2015.1125119
+- Gorton, W. A. (2016). Manipulating Citizens: How Political Campaigns’ Use of Behavioral Social Science Harms Democracy. New Political Science, 38(1), 61–80. 
 - Bennett, Colin J. and David Lyon. "Data-driven elections: implications and challenges for democratic societies  ". Internet Policy Review 8.4 (2019). Web. 23 Jun. 2024.
-- Gorton, W. A. (2016). Manipulating Citizens: How Political Campaigns’ Use of Behavioral Social Science Harms Democracy. New Political Science, 38(1), 61–80. https://doi.org/10.1080/07393148.2015.1125119
+- Gorton, W. A. (2016). Manipulating Citizens: How Political Campaigns’ Use of Behavioral Social Science Harms Democracy. New Political Science, 38(1), 61–80.
 - Zuiderveen Borgesius, F J, et al.. “Online Political Microtargeting: Promises and Threats for Democracy”. Utrecht Law Review, vol. 14, no. 1, 2018, p. 82-96, doi:10.18352/ulr.420.
 
 #### The Global Push for Client Side Scanning (Spyware) and Lawful Access (Breaking Encryption)
