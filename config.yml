@@ -42,7 +42,7 @@ params:
   profileMode: 
     enabled: true 
     title: Privacy, Security & the Law 
-    subtitle: "**The personal webpage of a privacy enthusiast and lawyer in training - Luke Arbuthnot**"
+    subtitle: "**The personal webpage of a privacy enthusiast and lawyer in training**"
     imageUrl: "/profilephoto.png" # optional
     imageTitle: "Logo" # optional
     imageWidth: 120 # custom size
@@ -60,6 +60,8 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/PrivSecLaw"
+    - name: reddit
+      url: "https://www.reddit.com/user/Th3PrivacyLife/"
     - name: substack
       url: "https://privseclaw.substack.com" 
     - name: linkedin
