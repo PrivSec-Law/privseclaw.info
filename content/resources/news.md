@@ -41,6 +41,8 @@ All of these news feeds, websites and blogs are what I regularly consult for new
 
 - [Bits of Freedom](https://www.bitsoffreedom.nl/) - A Dutch digital rights organization.
 
+- [NOYB (None of Your Business)](https://noyb.eu/en/news) - A European Union consumer privacy advocacy NGO that selectively brings cases to court to hold companies to account for EU legislation (GDPR, DSA, DMA, e-Privacy) violations. They have essentially become a de facto Union wide data protection authority that is independent and committed to protecting consumer digital rights. 
+
 - [Chaos Computer Club](https://www.ccc.de/en/) - A German hacker association providing information about technical and societal issues, such as surveillance, privacy, freedom of information, hacktivism, data security and many other interesting things around technology and hacking issues.
 
 ## Blogs
