@@ -60,12 +60,8 @@ params:
   socialIcons:
     - name: x
       url: "https://x.com/PrivSecLaw"
-    - name: reddit
-      url: "https://www.reddit.com/user/Th3PrivacyLife/"
-    - name: substack
-      url: "https://privseclaw.substack.com" 
     - name: linkedin
-      url: "https://nl.linkedin.com/in/luke-arbuthnot-4bb337258?trk=people-guest_people_search-card"
+      url: "https://www.linkedin.com/in/luke-arbuthnot-4bb337258/?jobid=1234"
     - name: email
       url: "mailto:privseclaw@pm.me"  
     - name: github
