@@ -21,9 +21,11 @@ I am dedicated to researching and implementing digital privacy and security mana
 - **2024:** LL.B Bachelor of International and European Law (Technology Law track specialisation) | Rijksuniversiteit Groningen (NL), University of Surrey (UK)
 - **2024-2025:** LL.M Technology Law and Innovation (current!) | Rijksuniversiteit Groningen (NL)
 
-### Certifications/ Awards
+### Certifications / Awards / Courses
 
 - **2019:** The Duke of Edinburgh's International Award | Gold
+- Digital Security and Human Rights | Amnesty International
+- Basics of Personal Threat Modeling | Privacy Guides
 - PADI Rescue Diver 
 
 ### Experience
