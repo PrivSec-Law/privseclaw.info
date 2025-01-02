@@ -58,8 +58,6 @@ params:
         url: privacy
 
   socialIcons:
-    - name: x
-      url: "https://x.com/PrivSecLaw"
     - name: linkedin
       url: "https://www.linkedin.com/in/luke-arbuthnot-4bb337258/?jobid=1234"
     - name: email
