@@ -14,6 +14,4 @@ disableShare: true
 
 - [Email me](mailto:privseclaw@pm.me)
 
-- [My Twitter/ X account](https://x.com/PrivSecLaw)
-
 - [Message me on Signal!](https://signal.me/#eu/SW92fNJHedaSAG0QKgIx-NBzNKUutImhMytX2SZiNZvM6HRYEShBG5o-Edeku7MN)

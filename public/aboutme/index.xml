@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>About Me on Privacy, Security and the Law</title>
+    <link>http://localhost:1313/aboutme/</link>
+    <description>Recent content in About Me on Privacy, Security and the Law</description>
+    <image>
+      <title>Privacy, Security and the Law</title>
+      <url>http://localhost:1313/privseclaw.png</url>
+      <link>http://localhost:1313/privseclaw.png</link>
+    </image>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/aboutme/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me and this Website</title>
+      <link>http://localhost:1313/aboutme/whoiam/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/whoiam/</guid>
+      <description>Information about me and this website.</description>
+      <content:encoded><![CDATA[<p><img loading="lazy" src="/images/imageofme.jpeg" alt="Image of me"  />
+</p>
+<h2 id="a-digital-privacy-enthusiast-and-a-lawyer-in-training">A Digital Privacy Enthusiast and a Lawyer in Training</h2>
+<p>Welcome! I am Luke Arbuthnot and I&rsquo;m glad that you have come across my website. I am currently a law student pursuing a LLM in Technology Law and Innovation at the Rijksuniversiteit Groningen in the Netherlands. This website serves as my personal webpage and hosts my blog Privacy, Security and the Law, for which I periodically write posts.</p>
+<h2 id="privacy-security-and-the-law">Privacy, Security and the Law</h2>
+<h3 id="the-aims-of-privacy-security-and-the-law">The Aims of Privacy, Security and the Law</h3>
+<p>The aims and purposes of this blog are:</p>
+<ol>
+<li>
+<p>To highlight the importance of digital privacy and security for the individual and society at large.</p>
+</li>
+<li>
+<p>To engage in the current discourse surrounding topics and themes such as: data protection, mass surveillance, digital privacy and security and the interplay between these with the law.</p>
+</li>
+<li>
+<p>To represent my personal views, opinions and analysis on happenings within the fields of privacy, security and the law.</p>
+</li>
+<li>
+<p>To educate individuals seeking to regain their digital privacy and improve online security by leveraging knowledge gained from the world of academia and rigorous self-education on these matters.</p>
+</li>
+<li>
+<p>To develop my analytical skills in a non-academic format through application of learned skills from higher education.</p>
+</li>
+</ol>
+<h3 id="what-you-can-expect-from-this-blog">What You Can Expect From This Blog</h3>
+<p>The type of content to be expected from <em>Privacy, Security and the Law</em> is:</p>
+<ol>
+<li>
+<p>Analysis of what I deem to be the most important news relating to online privacy/ security from a technical and legal point of view.</p>
+</li>
+<li>
+<p>Recommendations and guides on how to reclaim your digital privacy and improve your online security.</p>
+</li>
+<li>
+<p>Opinions on issues and developments within the field of technology, digital politics and law.</p>
+</li>
+</ol>
+<hr>
+<div style="text-align: center" id="custom-substack-embed"></div>
+
+
+<script>
+  window.CustomSubstackWidget = {
+    substackUrl: "privseclaw.substack.com",
+    placeholder: "example@yourmail.com",
+    buttonText: "Subscribe Now!",
+    theme: "custom",
+    colors: {
+      primary: "#0FA4AF",
+      input: "#3E3E3E",
+      email: "#15CAD8",
+      text: "#3E3E3E",
+    },
+
+    
+
+  };
+</script>
+<script src="https://substackapi.com/widget.js" async></script>
+<hr>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>http://localhost:1313/aboutme/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/cv/</guid>
+      <description>My Curriculum Vitae and professional information.</description>
+      <content:encoded><![CDATA[<h3 id="me-in-brief">Me in Brief</h3>
+<p>I am a firm believer in the individual&rsquo;s right to privacy in today&rsquo;s age of hyper-digitalisation. I am strongly passionate about data protection law and digital rights with the aim of working within these rapidly developing fields.</p>
+<p>I am dedicated to researching and implementing digital privacy and security management strategies in my own day to day life. I have aspirations of sharing this gained knowledge with others professionally.</p>
+<h3 id="education">Education</h3>
+<ul>
+<li><strong>2024:</strong> LL.B Bachelor of International and European Law (Technology Law track specialisation) | Rijksuniversiteit Groningen (NL), University of Surrey (UK)</li>
+<li><strong>2024-2025:</strong> LL.M Technology Law and Innovation (current!) | Rijksuniversiteit Groningen (NL)</li>
+</ul>
+<h3 id="experience">Experience</h3>
+<ul>
+<li><strong>2022:</strong> European Law Student&rsquo;s Association Groningen | Tutored a constitutional law class of 9 and 2 individuals on a weekly basis</li>
+<li><strong>2022-2023:</strong> Decentralized Student Association | Activites Committee Chairman with the responsibility of planning, organizing and executing academic and social events</li>
+<li><strong>2024-2025:</strong> Intern at Exact Group B.V. | Researched AI Act compliance within the Governance, Risk and Control Information Security Department</li>
+<li><strong>Ongoing:</strong> Co-leader of Privacy Discussion and Research Group at <a href="https://www.aisig.org/">AI Safety Initiative Groningen</a></li>
+</ul>
+<h3 id="certifications--awards--courses">Certifications / Awards / Courses</h3>
+<ul>
+<li>The Duke of Edinburgh&rsquo;s International Award | Gold</li>
+<li>Digital Security and Human Rights | Amnesty International</li>
+<li>Technical Privacy Masterclass | Privado</li>
+<li>Basics of Personal Threat Modeling | Privacy Guides</li>
+<li>PADI Rescue Diver</li>
+</ul>
+<h3 id="languages">Languages</h3>
+<ul>
+<li>English fluency</li>
+<li>Basic German</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>My Contact Information</title>
+      <link>http://localhost:1313/aboutme/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/aboutme/contact/</guid>
+      <description>My contact information and how to reach me.</description>
+      <content:encoded><![CDATA[<ul>
+<li>
+<p><a href="https://www.linkedin.com/in/luke-arbuthnot-4bb337258?trk=&amp;original_referer=">My LinkedIn</a></p>
+</li>
+<li>
+<p><a href="mailto:privseclaw@pm.me">Email me</a></p>
+</li>
+<li>
+<p><a href="https://signal.me/#eu/SW92fNJHedaSAG0QKgIx-NBzNKUutImhMytX2SZiNZvM6HRYEShBG5o-Edeku7MN">Message me on Signal!</a></p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

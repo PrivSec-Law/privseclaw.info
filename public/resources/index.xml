@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Privacy and Security Resources on Privacy, Security and the Law</title>
+    <link>http://localhost:1313/resources/</link>
+    <description>Recent content in Privacy and Security Resources on Privacy, Security and the Law</description>
+    <image>
+      <title>Privacy, Security and the Law</title>
+      <url>http://localhost:1313/privseclaw.png</url>
+      <link>http://localhost:1313/privseclaw.png</link>
+    </image>
+    <generator>Hugo -- 0.126.2</generator>
+    <language>en-us</language>
+    <atom:link href="http://localhost:1313/resources/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Websites</title>
+      <link>http://localhost:1313/resources/websites/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/websites/</guid>
+      <description>Websites that can serve as your guides to regaining control over your privacy.</description>
+      <content:encoded><![CDATA[<ul>
+<li>
+<p><a href="https://www.privacyguides.org/en/">Privacy Guides</a> - One of the best online resources for all things digital privacy, anonymity and security. Regularly updated, this site contains guides, walkthroughs and recommended tools all presented in an easily readable and understandable way. I cannot recommend this site enough!</p>
+</li>
+<li>
+<p><a href="https://ssd.eff.org/">Electronic Frontier Foundation&rsquo;s Surveillance Self-Defense</a> - Resources from the non-profit <a href="https://www.eff.org/">EFF</a> that fights to protect your digital privacy and security.</p>
+</li>
+<li>
+<p><a href="https://www.techlore.tech/">Techlore</a> - A small team educating people about digital rights, privacy, security, digital control, and other important topics to push the world towards a safer internet.</p>
+</li>
+<li>
+<p><a href="https://awesome-privacy.xyz/">Awesome-Privacy</a> - Another website that showcases privacy respecting alternative software and services.</p>
+</li>
+<li>
+<p><a href="https://digital-defense.io/">Digital Defence</a> - A site that offers a comprehensive privacy and security checklist.</p>
+</li>
+<li>
+<p>This website of course!😉</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Books | Articles</title>
+      <link>http://localhost:1313/resources/booksandarticles/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/booksandarticles/</guid>
+      <description>My personal library on all things privacy, cyber-security and our digital world.</description>
+      <content:encoded><![CDATA[<h3 id="non-fiction-books">Non-fiction Books</h3>
+<h4 id="why-privacy-matters-and-misconceptions">Why Privacy Matters and Misconceptions</h4>
+<ul>
+<li><em>Neil Richards,</em> Why Privacy Matters</li>
+<li><em>Carissa Véliz,</em> Privacy is Power: Why and How You Should Take Back Control of Your Data</li>
+<li><em>Heidi Boghosian,</em> I Have Nothing to Hide and 20 other Myths about Surveillance and Privacy</li>
+<li><em>Daniel J. Solove,</em> Nothing to Hide: The False Tradeoff between Privacy and Security</li>
+</ul>
+<h4 id="the-current-digital-reality">The Current Digital Reality</h4>
+<ul>
+<li><em>Shoshana Zuboff,</em> The Age of Surveillance Capitalism: The Fight for a Human Future at the New Frontier of Power</li>
+<li><em>Bruce Schneier,</em> Data and Goliath</li>
+<li><em>John Fasman,</em> We See it All: Liberty and Justice in the Age of Perpetual Surveillance</li>
+<li><em>Edward S. Herman &amp; Noam Chomksy,</em> Manufacturing Consent: The Political Economy of the Mass Media</li>
+<li><em>Bruce Schneier,</em> A Hacker&rsquo;s Mind: How the Powerful Bend Society&rsquo;s Rules, and how to Bend them Back</li>
+<li><em>Eli Pariser,</em> The Filter Bubble: What the Internet is Hiding from You</li>
+<li><em>Laura Dodsworth &amp; Patrick Fagan,</em> Free Your Mind: The New World of Manipulation and how to Resist it</li>
+<li><em>Lawrence Lessig,</em> Free Culture: How Big Media Uses Technology and the Law to Lock Down Culture and Control Creativity</li>
+<li><em>Nicholas Carr,</em> The Shallows: What the Internet is doing to our Brains</li>
+<li><em>Laurent Richard &amp; Sandrine Riguad,</em> Pegasus: How a Spy in your Pocket threatens the End of Privacy, Dignity and Democracy</li>
+<li><em>Johann Hari,</em> Stolen Focus: Why You Can&rsquo;t Pay Attention and How to Think Deeply Again</li>
+<li><em>Sarah Brayne,</em> Predict and Surveil: Data, Discretion and Future of Policing</li>
+</ul>
+<h4 id="the-usas-surveillance-regime-and-the-5-eyes-intelligence-network">The USA&rsquo;s Surveillance Regime and the 5 Eyes Intelligence Network</h4>
+<ul>
+<li><em>Glenn Greenwald,</em> No Place to Hide</li>
+<li><em>Edward Snowden,</em> Permanent Record</li>
+<li><em>Yasha Levine,</em> Surveillance Valley: The Secret Military History of the Internet</li>
+<li><em>Richard Kerbaj,</em> The Secret History of the Five Eyes: The Untold Story of the International Spy Network</li>
+<li><em>Nilz Melzer,</em> The Trial of Julian Assange: A Story of Persecution</li>
+</ul>
+<h4 id="cybersecurity-and-technological-vulnerability">Cybersecurity and Technological Vulnerability</h4>
+<ul>
+<li><em>Bruce Schneier,</em> Click Here to Kill Everybody: Security and Survival in a Hyper-connected World</li>
+<li><em>Daniel J. Solove &amp; Woodrow Hartzog,</em> Breached: Why Data Security Laws Fail and how to Improve it</li>
+</ul>
+<h4 id="digital-authoritarianism-outside-the-west">Digital Authoritarianism Outside the &lsquo;West&rsquo;</h4>
+<ul>
+<li><em>Marc Owen Jones,</em> Digital Authoritarianism in the Middle East: Deception, Disinformation and Social Media</li>
+<li><em>Geoffrey Cain,</em> The Perfect Police State: An Undercover Odyssey into China&rsquo;s Terrifying Surveillance Dystopia of the Future</li>
+<li><em>Josh Chin and Liza Lin,</em> Surveillance State: Inside China&rsquo;s Quest Launch a New Era of Social Control</li>
+<li><em>Kai Strittmatter,</em> We Have Been Harmonised: Life in China&rsquo;s Surveillance State</li>
+<li><em>Ian Williams,</em> Every Breath You Take: China&rsquo;s New Tyranny</li>
+<li><em>Jonathan E. Hillman,</em> The Digital Silk Road: China&rsquo;s Quest to Wire the World and Win the Future</li>
+</ul>
+<h3 id="fiction-books">Fiction Books</h3>
+<ul>
+<li><em>George Orwell,</em> 1984</li>
+<li><em>Aldous Huxley,</em> Brave New World</li>
+<li><em>Ken MacLeod,</em> Intrusion</li>
+<li><em>Barry Eisler,</em> The God&rsquo;s Eye View</li>
+<li><em>Philip K. Dick,</em> Minority Report</li>
+</ul>
+<h3 id="academic-articles-a-selection-of-my-favorites">Academic Articles (a Selection of my Favorites)</h3>
+<h4 id="general-privacy-and-surveillance-society">General Privacy and Surveillance Society</h4>
+<ul>
+<li>Solove, Daniel. (2020). The Myth of the Privacy Paradox. SSRN Electronic Journal. 10.2139/ssrn.3536265.</li>
+<li>Zuboff, Shoshana. &ldquo;Big other: surveillance capitalism and the prospects of an information civilization.&rdquo; Journal of information technology 30.1 (2015): 75-89.</li>
+<li>Solove, Daniel J. &ldquo;Conceptualizing privacy.&rdquo; Calif. L. Rev. 90 (2002): 1087.</li>
+<li>Dragu, Tiberiu, and Yonatan Lupu. &ldquo;Digital authoritarianism and the future of human rights.&rdquo; International Organization 75.4 (2021): 991-1017.</li>
+</ul>
+<h4 id="microtargeting-and-public-manipulation">Microtargeting and Public Manipulation</h4>
+<ul>
+<li>Tufekci, Zeynep. &ldquo;Engineering the public: Big data, surveillance and computational politics.&rdquo; First Monday (2014).</li>
+<li>Bernays, Edward L. &ldquo;The engineering of consent.&rdquo; The Annals of the American Academy of Political and Social Science 250.1 (1947): 113-120.</li>
+<li>Gorton, W. A. (2016). Manipulating Citizens: How Political Campaigns’ Use of Behavioral Social Science Harms Democracy. New Political Science, 38(1), 61–80.</li>
+<li>Bennett, Colin J. and David Lyon. &ldquo;Data-driven elections: implications and challenges for democratic societies  &ldquo;. Internet Policy Review 8.4 (2019). Web. 23 Jun. 2024.</li>
+<li>Gorton, W. A. (2016). Manipulating Citizens: How Political Campaigns’ Use of Behavioral Social Science Harms Democracy. New Political Science, 38(1), 61–80.</li>
+<li>Zuiderveen Borgesius, F J, et al.. “Online Political Microtargeting: Promises and Threats for Democracy”. Utrecht Law Review, vol. 14, no. 1, 2018, p. 82-96, doi:10.18352/ulr.420.</li>
+</ul>
+<h4 id="the-global-push-for-client-side-scanning-spyware-and-lawful-access-breaking-encryption">The Global Push for Client Side Scanning (Spyware) and Lawful Access (Breaking Encryption)</h4>
+<ul>
+<li>Abelson, Harold, et al. &ldquo;Bugs in our pockets: The risks of client-side scanning.&rdquo; Journal of Cybersecurity 10.1 (2024): tyad020.</li>
+<li>Anderson, Ross. &ldquo;Chat control or child protection?.&rdquo; arXiv preprint arXiv:2210.08958 (2022).</li>
+<li>Hewson, Eloise C., and Peter S. Harrison. &ldquo;Talking in the dark: Rules to facilitate open debate about lawful access to strongly encrypted information.&rdquo; Computer Law &amp; Security Review 40 (2021): 105526.</li>
+<li>Abelson, Harold, et al. &ldquo;Keys under doormats.&rdquo; Communications of the ACM 58.10 (2015): 24-26.</li>
+<li>Manpearl, Eric. &ldquo;Preventing Going Dark: A Sober Analysis and Reasonable Solution to Preserve Security in the Encryption Debate.&rdquo; U. Fla. JL &amp; Pub. Pol&rsquo;y 28 (2017): 65.</li>
+<li>van Daalen, O. L. &ldquo;The right to encryption: Privacy as preventing unlawful access.&rdquo; Computer Law &amp; Security Review 49 (2023): 105804.</li>
+<li>Kamara, Seny, et al. &ldquo;Outside looking in: Approaches to content moderation in end-to-end encrypted systems.&rdquo; arXiv preprint arXiv:2202.04617 (2022).</li>
+<li>Ludvigsen, Kaspar Rosager, Shishir Nagaraja, and Angela Daly. &ldquo;YASM (Yet Another Surveillance Mechanism).&rdquo; arXiv preprint arXiv:2205.14601 (2022).</li>
+<li>Mayer, Jonathan. &ldquo;Content moderation for end-to-end encrypted messaging.&rdquo; Princeton University (2019).</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>News | Blogs | Analysis</title>
+      <link>http://localhost:1313/resources/news/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/news/</guid>
+      <description>Stay up to date on all things privacy with these sources.</description>
+      <content:encoded><![CDATA[<p>All of these news feeds, websites and blogs are what I regularly consult for news related to privacy, cyber-security and our digital world.</p>
+<h2 id="news-media">News Media</h2>
+<ul>
+<li>
+<p><a href="https://netzpolitik.org/">Netzpolitik.org</a> - A German and English news website focusing on digital politics and digital rights.</p>
+</li>
+<li>
+<p><a href="https://www.derstandard.at/web/netzpolitik">Der Standart | Netzpolitik</a> - An Austrian newspaper of record that has surprisingly great coverage of digital politics, cybersecurity and privacy.</p>
+</li>
+<li>
+<p><a href="https://www.euractiv.com/sections/digital/">Euractiv | Technology</a> - Euractiv&rsquo;s technology section offers the most breaking and current news surounding digital politics in the European Union.</p>
+</li>
+<li>
+<p><a href="https://www.wired.com/category/security/">WIRED | Security</a> - A news site focusing on all things tech. The security section of the website is a good read.</p>
+</li>
+<li>
+<p><a href="https://www.theguardian.com/international">The Guardian</a> - The Guardian has good coverage of privacy and related topics within its surveillance, privacy and tech sections. This is the newspaper that first broke the Snowden leaks.</p>
+</li>
+<li>
+<p><a href="https://www.theverge.com/cyber-security">The Verge</a> - This news website has decent coverage of security related news on its security section.</p>
+</li>
+<li>
+<p><a href="https://techcrunch.com/category/privacy">TechCrunch</a> - This news site has decent coverage of privacy related news on the site&rsquo;s privacy section.</p>
+</li>
+<li>
+<p><a href="https://themarkup.org/">The Markup</a> - &ldquo;Data-driven investigations of tech and how it influences society&rdquo;.</p>
+</li>
+</ul>
+<h2 id="non-profits-ngos-and-activist-organizations">Non-profits, NGOs and Activist Organizations</h2>
+<ul>
+<li>
+<p><a href="https://www.eff.org/deeplinks">Electronic Frontier Foundation&rsquo;s Deeplinks Blog</a> - The EFF is a US focused Digital Rights group that has been fighting for digital rights for more than three decades.</p>
+</li>
+<li>
+<p><a href="https://epic.org/">Electronic Privacy Information Center</a> - Another US focused digital rights group that puts out phenomenal analysis.</p>
+</li>
+<li>
+<p><a href="https://edri.org/">European Digital Rights</a> - A European digital rights collective of NGO&rsquo;s, academics and experts.</p>
+</li>
+<li>
+<p><a href="https://bigbrotherwatch.org.uk/">Big Brother Watch</a> - A UK focused digital rights and civil liberties organization that does a lot of good work.</p>
+</li>
+<li>
+<p><a href="https://www.bitsoffreedom.nl/">Bits of Freedom</a> - A Dutch digital rights organization.</p>
+</li>
+<li>
+<p><a href="https://noyb.eu/en/news">NOYB (None of Your Business)</a> - A European Union consumer privacy advocacy NGO that selectively brings cases to court to hold companies to account for EU legislation (GDPR, DSA, DMA, e-Privacy) violations. They have essentially become a de facto Union wide data protection authority that is independent and committed to protecting consumer digital rights.</p>
+</li>
+<li>
+<p><a href="https://www.ccc.de/en/">Chaos Computer Club</a> - A German hacker association providing information about technical and societal issues, such as surveillance, privacy, freedom of information, hacktivism, data security and many other interesting things around technology and hacking issues.</p>
+</li>
+</ul>
+<h2 id="blogs">Blogs</h2>
+<ul>
+<li>
+<p><a href="https://www.schneier.com/">Schneier on Security</a> - An amazing blog from one of the worlds leading cybersecurity experts.</p>
+</li>
+<li>
+<p><a href="https://proton.me/blog/privacy-news">The Proton Blog</a> - The blog from the Swiss privacy-first Google competitor and ecosystem provider Proton.</p>
+</li>
+<li>
+<p><a href="https://tuta.com/blog">The Tutanota Blog</a> - The blog from the German privacy respecting mail provider Tuta.</p>
+</li>
+<li>
+<p><a href="https://mullvad.net/en/blog">The Mullvad Blog</a> - The blog from the privacy respecting Swedish VPN provider Mullvad.</p>
+</li>
+<li>
+<p><a href="privsec.dev">Privsec.dev</a> - A simple blog from a group of security researchers and privacy enthusiasts.</p>
+</li>
+<li>
+<p>This website of course!</p>
+</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Documentaries | Short Films | Speeches</title>
+      <link>http://localhost:1313/resources/film/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/film/</guid>
+      <description>Engaging documentaries, short films and speeches on all things privacy.</description>
+      <content:encoded><![CDATA[<ul>
+<li><a href="https://citizenfourfilm.com/">Citizenfour</a> - Citizenfour is unique in that it is not just a documentary about Edward Snowden and the 2013 mass surveillance disclosures but was partly filmed during Snowden&rsquo;s first contact with journalists. I highly recommend this.</li>
+<li><a href="https://www.pbs.org/wgbh/frontline/documentary/united-states-of-secrets/">United States of Secrets</a> - This is a 2 part documentary series that explores the massive and controversial secret surveillance programs conducted by the National Security Agency (NSA) and the impact it had on the American public.</li>
+<li><a href="https://www.imdb.com/title/tt7055384/">Weapons of Mass Surveillance</a> - A great BBC documentary on how Middle Eastern autocracies use and abuse spyware and surveillance technology and how western technology corporations and governments are complicit.</li>
+<li><a href="https://www.thesocialdilemma.com/">The Social Dilemma</a></li>
+<li><a href="https://www.youtube.com/watch?v=pcSlowAhvUk">Why Privacy Matters | Glenn Greenwald at TED</a> - A brilliant TED talk from one of the journalists who worked with Snowden to blow the whistle on mass surveillance.</li>
+<li><a href="https://www.youtube.com/watch?v=KGX-c5BJNFk">The Power of Privacy | The Guardian</a> A short film on why privacy matters from the institution that started the 2013 mass surveillance disclosures.</li>
+<li><a href="https://www.youtube.com/watch?v=V9_PjdU3Mpo">Safe and Sorry – Terrorism &amp; Mass Surveillance | Kurzgesagt</a> - A visually stunning and highly informative 6 minute video on the debate between privacy and security.</li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Content Creators | People to Follow | Online Communities</title>
+      <link>http://localhost:1313/resources/creatorsandcommunities/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/resources/creatorsandcommunities/</guid>
+      <description>Follow these content creators and key individuals to learn and be entertained. Join these communities to discuss privacy and all things digital or just lurk and learn.</description>
+      <content:encoded><![CDATA[<h2 id="content-creators-and-people-to-follow">Content Creators and People to Follow</h2>
+<h3 id="youtube">YouTube</h3>
+<ul>
+<li><a href="https://www.youtube.com/@TheHatedOne">The Hated One</a> - One of the best YouTube content creators when it comes to privacy, digital politics and institutional critique of digital power.</li>
+<li><a href="https://www.youtube.com/@NaomiBrockwellTV">NBTV</a> - A great channel from a non-profit that offers engaging and easy to understand guides and analysis videos about privacy and security.</li>
+<li><a href="https://www.youtube.com/@MentalOutlaw">Mental Outlaw</a> - A comedic tech YouTuber who focuses mainly on privacy, cybersecurity and digital rights news.</li>
+<li><a href="https://www.youtube.com/@TheLinuxEXP">The Linux Experiment</a> - A great channel that offers news, guides and insights into the Linux operating system.</li>
+<li><a href="https://www.youtube.com/@EricMurphyxyz">Eric Murphy</a> - A great channel with many key insights into privacy.</li>
+<li><a href="https://www.youtube.com/@rossmanngroup">Louis Rossman</a> - A man who wakes up every morning fighting Big Tech. Mainly focuses on the right to repair but does occasionally cover privacy and security related matters.</li>
+<li><a href="https://www.youtube.com/@simoncaine9515">Simon Caine</a> - A smaller channel that I follow that covers privacy news.</li>
+<li><a href="https://www.youtube.com/@techlore">Techlore</a> - One of the big ones when it comes to privacy on YouTube.</li>
+<li><a href="https://www.youtube.com/@JackRhysider">Jack Rhysider</a> - Channel of the Darknet Dairies Podcast.</li>
+<li><a href="https://www.youtube.com/@sideofburritos">Side of Burritos</a>- Channel that mainly offers GrapheneOS guides.</li>
+</ul>
+<h3 id="x">X</h3>
+<ul>
+<li><a href="https://x.com/Snowden">Edward Snowden</a> - Need I say more?</li>
+<li><a href="https://x.com/mer__edith">Meredith Whittaker</a> - Meredith is the current President of Signal - the E2EE secure and private messaging application.</li>
+<li><a href="https://x.com/matthew_d_green">Mathew Green</a> - Security researcher at John Hopkins.</li>
+<li><a href="https://x.com/GrapheneOS">GrapheneOS</a> - Official X account of the GrapheneOS project, created by the Graphene non-profit foundation.</li>
+<li><a href="https://x.com/echo_pbreyer">Patrick Breyer</a> - Account of Dr. Patrick Breyer, Member of European Parliament for the Pirate Party and one of the EU&rsquo;s most influential digital rights activists.</li>
+<li>Most if not all sources within this resources section should have X accounts or alternative social media that you can follow.</li>
+</ul>
+<h3 id="podcasts">Podcasts</h3>
+<ul>
+<li><a href="https://darknetdiaries.com/">Darknet Dairies</a> - A podcast about hackers, breaches, shadow government activity, hacktivism, cybercrime, and all the things that dwell on the hidden parts of the network.</li>
+<li><a href="https://www.surveillancereport.tech/">Surveillance Report from Techlore</a> - Weekly security and privacy news.</li>
+<li><a href="https://closednetwork.io/">Closed Network Privacy Podcast</a> - A privacy and security podcast focused on the everyday person and using simple tools and techniques to become a smaller target for online attacks.</li>
+<li><a href="https://www.eff.org/how-to-fix-the-internet-podcast">EFF - How to Fix the Internet</a> - EFF&rsquo;s How to Fix the Internet podcast offers a better way forward. Through curious conversations with some of the leading minds in law and technology, it explores creative solutions to some of today’s biggest tech challenges.</li>
+</ul>
+<h2 id="forums">Forums</h2>
+<h3 id="reddit">Reddit</h3>
+<ul>
+<li><a href="https://www.reddit.com/r/privacy/?rdt=35703">r/privacy</a></li>
+<li><a href="https://www.reddit.com/r/degoogle/">r/degoogle</a></li>
+<li><a href="https://www.reddit.com/r/opensource/">r/opensource</a></li>
+<li><a href="https://www.reddit.com/r/linux/">r/linux</a></li>
+<li><a href="https://www.reddit.com/r/digitalminimalism/">r/digitalminimalism</a> - Not a privacy focused subreddit but there is much overlap.</li>
+</ul>
+<h3 id="other">Other</h3>
+<ul>
+<li><a href="https://discuss.privacyguides.net/">Privacy Guides discussion forum</a> - Discussion forum for the Privacy Guides community.</li>
+<li><a href="https://matrix.to/#/#privacyguides:matrix.org">Privacy Guides Matrix Community</a></li>
+<li><a href="https://discuss.grapheneos.org/">GrapheneOS discussion forum</a> - Discussion forum for the GrapheneOS (a secure and private mobile OS) community.</li>
+<li><a href="https://matrix.to/#/%23community:grapheneos.org">GrapheneOS Matrix Community</a></li>
+<li><a href="https://discuss.techlore.tech/">Techlore discussion forum</a> - Discussion forum for the Techlore community.</li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
