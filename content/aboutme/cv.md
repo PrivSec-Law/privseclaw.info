@@ -32,7 +32,7 @@ I am dedicated to researching and implementing digital privacy and security mana
 
 - The Duke of Edinburgh's International Award | Gold
 - Digital Security and Human Rights | Amnesty International
-- Privado Technical Privacy Masterclass
+- Technical Privacy Masterclass | Privado
 - Basics of Personal Threat Modeling | Privacy Guides
 - PADI Rescue Diver 
 
