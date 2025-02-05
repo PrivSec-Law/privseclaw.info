@@ -23,8 +23,9 @@ I am dedicated to researching and implementing digital privacy and security mana
 
 ### Certifications / Awards / Courses
 
-- **2019:** The Duke of Edinburgh's International Award | Gold
+- The Duke of Edinburgh's International Award | Gold
 - Digital Security and Human Rights | Amnesty International
+- Privado Technical Privacy Masterclass
 - Basics of Personal Threat Modeling | Privacy Guides
 - PADI Rescue Diver 
 
@@ -32,6 +33,8 @@ I am dedicated to researching and implementing digital privacy and security mana
 
 - **2022:** European Law Student's Association Groningen | Tutored a constitutional law class of 9 and 2 individuals on a weekly basis
 - **2022-2023:** Decentralized Student Association | Activites Committee Chairman with the responsibility of planning, organizing and executing academic and social events
+- **2024-2025:** Intern at Exact Group B.V. | Researched AI Act compliance within the Governance, Risk and Control Information Security Department  
+- **Ongoing:** Co-leader of Privacy Discussion and Research Group at [AI Safety Initiative Groningen](https://www.aisig.org/)
 
 ### Languages
 
