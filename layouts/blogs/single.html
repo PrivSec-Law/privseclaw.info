@@ -1,0 +1,234 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Params.description }}">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/single.css">
+<script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
+
+<style>
+  /* Teal title & subheadings */
+  #single h1 { color: #0FA4AF !important; }
+  #single h2, #single h3, #single h4, #single h5, #single h6 { color: #0FA4AF !important; }
+
+  /* Back buttons */
+  .back-btn {
+    background-color: #222526;
+    color: #0FA4AF;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color .2s ease, color .2s ease;
+    display: inline-block;
+  }
+  .back-btn:hover { background-color: #0FA4AF; color: #222526; }
+
+  /* ---- ToC dark theme + kill white edges/scrollbar halo ---- */
+  #single .toc-wrap {
+    background-color: #222526 !important; /* ToC box bg */
+    border: none !important;
+    border-radius: 12px !important; /* rounded corners */
+    overflow: hidden; /* prevent halo */
+  }
+
+  #single aside.toc {
+    background-color: #222526 !important; /* ToC box bg */
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 12px !important; /* rounded corners */
+    background-clip: padding-box !important;
+    overflow: hidden;
+  }
+
+  #single aside.toc h5 {
+    color: #0FA4AF !important;
+    border-bottom: none !important; /* hides faint line */
+    margin-bottom: .5rem;
+    padding-bottom: .25rem;
+  }
+
+  #single aside.toc .toc-content {
+    background: #222526 !important;
+    margin: 0 !important;
+    padding-right: .5rem;
+    max-height: 60vh;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-color: #0FA4AF #222526;
+    scrollbar-width: thin;
+    scrollbar-gutter: stable both-edges;
+  }
+
+  #single aside.toc .toc-content a { color: #0FA4AF !important; text-decoration: none; }
+  #single aside.toc .toc-content a:hover { color: #0c8c96 !important; }
+
+  /* WebKit scrollbar styling */
+  #single aside.toc .toc-content::-webkit-scrollbar { width: 8px; height: 8px; }
+  #single aside.toc .toc-content::-webkit-scrollbar-track { background: #222526; }
+  #single aside.toc .toc-content::-webkit-scrollbar-track-piece { background: #222526; }
+  #single aside.toc .toc-content::-webkit-scrollbar-thumb { background: #0FA4AF; border-radius: 8px; }
+  #single aside.toc .toc-content::-webkit-scrollbar-thumb:hover { background: #0c8c96; }
+  #single aside.toc .toc-content::-webkit-scrollbar-corner { background: #222526; }
+</style>
+{{ end }}
+
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<section id="single" style="min-height:100vh; padding-bottom:3rem; background-color: #191919;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+
+          <!-- Back buttons -->
+          <div class="d-flex align-items-center gap-2 mb-3">
+            {{ with .CurrentSection }}
+              <a href="{{ .RelPermalink }}" class="back-btn">← Back to {{ .Title }}</a>
+            {{ end }}
+            <a href="{{ "/" | relURL }}" class="back-btn">⌂ Home</a>
+          </div>
+
+          <!-- Title + meta -->
+          <div class="title mb-4">
+            <h1 class="text-center mb-2">{{ .Title }}</h1>
+            <div class="text-center">
+              {{ if .Params.author }}
+                {{ .Params.author }}<small> | </small>
+              {{ end }}
+              {{ .Date.Format (.Site.Params.datesFormat.article | default "Jan 2, 2006") }}
+              {{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
+              <span id="readingTime">{{ .Site.Params.singlePages.readTime.content | default "min read" }}</span>
+              {{ end }}
+            </div>
+          </div>
+
+          <!-- MOBILE ToC -->
+          {{ if (.Params.toc | default true) }}
+          <div class="d-lg-none mb-4 toc-wrap">
+            <aside class="toc">
+              <h5>{{ .Site.Params.terms.toc | default "Table Of Contents" }}</h5>
+              <div class="toc-content">
+                {{ .TableOfContents }}
+              </div>
+            </aside>
+          </div>
+          {{ end }}
+
+          <!-- Featured image -->
+          {{ if .Params.image }}
+          <div class="featured-image mb-3">
+            <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
+          </div>
+          {{ end }}
+
+          <article class="page-content p-2">
+            {{ .Content | emojify }}
+          </article>
+        </div>
+      </div>
+
+      <div class="col-sm-12 col-md-12 col-lg-3">
+        <div id="stickySideBar" class="sticky-sidebar">
+          {{ if (.Params.toc | default true) }}
+          <aside class="toc d-none d-lg-block">
+            <h5>{{ .Site.Params.terms.toc | default "Table Of Contents" }}</h5>
+            <div class="toc-content">
+              {{ .TableOfContents }}
+            </div>
+          </aside>
+          {{ end }}
+
+          {{ if .Params.tags }}
+          <aside class="tags">
+            <h5>{{ .Site.Params.terms.tags | default "Tags" }}</h5>
+            <ul class="tags-ul list-unstyled list-inline">
+              {{ range .Params.tags }}
+              <li class="list-inline-item">
+                <a href="{{ `tags` | absURL }}/{{ . | urlize }}"
+                   {{ if site.Params.singlePages.tags.openInNewTab | default true }}target="_blank"{{ end }}>
+                  {{ . }}
+                </a>
+              </li>
+              {{ end }}
+            </ul>
+          </aside>
+          {{ end }}
+
+          {{ if .Params.socialShare | default .Site.Params.singlePages.socialShare | default true }}
+          <aside class="social">
+            <h5>{{ .Site.Params.terms.social | default "Social" }}</h5>
+            <div class="social-content">
+              <ul class="list-inline">
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://www.linkedin.com/shareArticle?mini=true&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://twitter.com/share?text={{ .Title }}&url={{ .Site.Params.hostName }}{{ .Permalink | absURL }}"><i class="fab fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href="https://api.whatsapp.com/send?text={{ .Title }}: {{ .Site.Params.hostName }}{{ .Permalink | absURL }}"><i class="fab fa-whatsapp"></i></a>
+                </li>
+                <li class="list-inline-item text-center">
+                  <a target="_blank" href='mailto:?subject={{ .Title }}&amp;body={{ .Site.Params.terms.emailText | default "Check out this site" }} {{ .Site.Params.hostName }}{{ .Permalink | absURL }}'><i class="fa fa-envelope"></i></a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12 col-lg-9 p-4">
+        {{ template "_internal/disqus.html" . }}
+      </div>
+    </div>
+  </div>
+
+  <button class="p-2 px-3" onclick="topFunction()" id="topScroll">
+    <i class="fas fa-angle-up"></i>
+  </button>
+</section>
+
+{{ if or (.Site.Params.singlePages.scrollprogress.enable | default true) (.Params.enableScrollProgress) }}
+<div class="progress">
+  <div id="scroll-progress-bar" class="progress-bar" role="progressbar" aria-valuenow="0" aria-valuemin="0"></div>
+</div>
+<script src="{{ .Site.Params.staticPath }}/js/scrollProgressBar.js"></script>
+{{ end }}
+
+<script>
+  var topScroll = document.getElementById("topScroll");
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+      topScroll.style.display = "block";
+    } else {
+      topScroll.style.display = "none";
+    }
+  }
+
+  function topFunction() {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
+  // Sticky sidebar top offset (guard element)
+  let stickySideBarElem = document.getElementById("stickySideBar");
+  if (stickySideBarElem) {
+    let stickyNavBar = {{ .Site.Params.navbar.stickyNavBar.enable | default false }};
+    if (stickyNavBar) {
+      let headerElem = document.getElementById("profileHeader");
+      let headerHeight = headerElem ? headerElem.offsetHeight + 15 : 50;
+      stickySideBarElem.style.top = headerHeight + "px";
+    } else {
+      stickySideBarElem.style.top = "50px";
+    }
+  }
+</script>
+
+{{ if or (.Site.Params.singlePages.readTime.enable | default true) (.Params.enableReadingTime) }}
+<script src="{{ .Site.Params.staticPath }}/js/readingTime.js"></script>
+{{ end }}
+
+{{ end }}

@@ -1,0 +1,69 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Description | default (printf "%s of %s" .Title .Site.Title) }}">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/list.css" media="all">
+{{ end }}
+
+{{ define "title" }}
+{{ .Title }} | {{ .Site.Title }}
+{{ end }}
+
+{{ define "main" }}
+<div class="container pt-5 resources-list" id="list-page" style="min-height:100vh;">
+
+  <!-- Back to Home Button -->
+  <style>
+    .back-btn {
+      background-color: #222526;
+      color: #0FA4AF;
+      padding: 0.4rem 0.75rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background-color 0.2s ease, color 0.2s ease;
+    }
+    .back-btn:hover {
+      background-color: #0FA4AF;
+      color: #222526;
+    }
+  </style>
+  <div class="d-flex justify-content-center mb-3">
+    <a href="{{ "/" | relURL }}" class="back-btn">
+      ⌂ Home
+    </a>
+  </div>
+  <!-- /Back to Home Button -->
+
+  <h2 class="text-center pb-2" style="color:#0FA4AF;">{{ .Title }}</h2>
+
+  {{ with .Description }}
+    <p class="lead text-center mb-4">{{ . }}</p>
+  {{ end }}
+  {{ if .Content }}
+    <div class="mb-4">{{ .Content }}</div>
+  {{ end }}
+
+  <div class="row">
+    {{ range .Pages }}  {{/* all posts; no paginator */}}
+    <div class="col-lg-4 col-md-6 my-3">
+      <div class="card-columns">
+        <div class="card h-100 position-relative">
+          {{ if and (not (.Site.Params.listPages.disableFeaturedImage | default false)) (.Params.image) }}
+          <div class="card-header">
+            <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
+          </div>
+          {{ end }}
+          <div class="card-body bg-transparent p-4 shadow-sm">
+            <h5 class="card-title bg-transparent" title="{{ .Title }}" style="color:#0FA4AF;">
+              {{ .Title | truncate 25 }}
+            </h5>
+            <div class="card-text secondary-font">
+              <p>{{ .Summary | truncate 300 }}</p>
+            </div>
+            <a href="{{ .RelPermalink }}" class="stretched-link" aria-label="Open {{ .Title }}"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

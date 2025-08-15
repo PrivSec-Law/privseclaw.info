@@ -1,0 +1,73 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Description | default (printf "%s of %s" .Title .Site.Title) }}">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/list.css" media="all">
+{{ end }}
+
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<div class="container pt-5 blogs-list" id="list-page" style="min-height:100vh;">
+
+  <style>
+    .back-btn{background:#222526;color:#0FA4AF;padding:.4rem .75rem;border-radius:6px;text-decoration:none;transition:background-color .2s,color .2s}
+    .back-btn:hover{background:#0FA4AF;color:#222526}
+    .blogs-list .card{background:#222526;border:none;border-radius:12px}
+    .blogs-list .card-body{background:transparent}
+    .blogs-list .card-header{padding:0;background:transparent;border:none}
+    .blogs-list .card-header img{display:block;width:100%;height:auto;border-top-left-radius:12px;border-top-right-radius:12px}
+    .blogs-list .card-title{color:#0FA4AF !important;white-space:normal;overflow:visible;text-overflow:unset;word-break:break-word;hyphens:auto;margin-bottom:.25rem}
+    .blogs-list .meta{opacity:.75;margin-bottom:.5rem}
+    .blogs-list .desc{margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+  </style>
+
+  <div class="d-flex justify-content-center mb-3">
+    <a href="{{ "/" | relURL }}" class="back-btn">⌂ Home</a>
+  </div>
+
+  <h2 class="text-center pb-2" style="color:#0FA4AF;">{{ .Title }}</h2>
+  {{ with .Description }}<p class="lead text-center mb-4">{{ . }}</p>{{ end }}
+  {{ if .Content }}<div class="mb-4">{{ .Content }}</div>{{ end }}
+
+  {{/* Split pages into pinned (explicit weight set) and unpinned (no weight) */}}
+  {{ $pinned   := sort (where .Pages "Params.weight" "ne" nil) "Weight" "asc" "Date" "desc" }}
+  {{ $unpinned := sort (where .Pages "Params.weight" "eq" nil) "Date" "desc" }}
+
+  <div class="row">
+    {{ range $pinned }}
+      <div class="col-lg-4 col-md-6 my-3">
+        <div class="card h-100 position-relative">
+          {{ if and (not (.Site.Params.listPages.disableFeaturedImage | default false)) (.Params.image) }}
+            <div class="card-header"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}"></div>
+          {{ end }}
+          <div class="card-body p-4 shadow-sm">
+            <h5 class="card-title" title="{{ .Title }}">{{ .Title }}</h5>
+            <small class="meta d-block">{{ .Date.Format "Jan 2, 2006" }}</small>
+            <div class="card-text secondary-font">
+              <p class="desc">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}</p>
+            </div>
+            <a href="{{ .RelPermalink }}" class="stretched-link" aria-label="Open {{ .Title }}"></a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+
+    {{ range $unpinned }}
+      <div class="col-lg-4 col-md-6 my-3">
+        <div class="card h-100 position-relative">
+          {{ if and (not (.Site.Params.listPages.disableFeaturedImage | default false)) (.Params.image) }}
+            <div class="card-header"><img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}"></div>
+          {{ end }}
+          <div class="card-body p-4 shadow-sm">
+            <h5 class="card-title" title="{{ .Title }}">{{ .Title }}</h5>
+            <small class="meta d-block">{{ .Date.Format "Jan 2, 2006" }}</small>
+            <div class="card-text secondary-font">
+              <p class="desc">{{ with .Params.description }}{{ . }}{{ else }}{{ .Summary | plainify | truncate 200 }}{{ end }}</p>
+            </div>
+            <a href="{{ .RelPermalink }}" class="stretched-link" aria-label="Open {{ .Title }}"></a>
+          </div>
+        </div>
+      </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

@@ -1,0 +1,97 @@
+{{/* Override: Recent Blog Posts (footer) */}}
+{{ $recentPostsPath := .Site.Params.footer.recentPosts.path | default "blogs" }}
+{{ $enabled := .Site.Params.footer.recentPosts.enable | default false }}
+{{ $count := .Site.Params.footer.recentPosts.count | default 3 }}
+{{ $all := where .Site.RegularPages "Section" $recentPostsPath }}
+{{ if and (gt (len $all) 0) $enabled }}
+<div class="container py-3" id="recent-posts">
+
+  <style>
+    #recent-posts .card {
+      background: #222526;
+      border: none;
+      border-radius: 12px;
+      transition: box-shadow 0.2s ease;
+    }
+    #recent-posts .card:hover {
+      box-shadow: 0 0 12px rgba(15,164,175,0.6);
+    }
+    #recent-posts .card-header {
+      padding: 0;
+      background: transparent;
+      border: none;
+    }
+    #recent-posts .card-header img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border-top-left-radius: 12px;
+      border-top-right-radius: 12px;
+    }
+    #recent-posts .card-body {
+      background: transparent;
+    }
+    #recent-posts .card-title {
+      color: #0FA4AF !important;
+      white-space: normal;
+      overflow: visible;
+      text-overflow: unset;
+      word-break: break-word;
+      hyphens: auto;
+      margin: 0 0 .25rem;
+    }
+    #recent-posts .rp-desc {
+      margin: 0;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+      color: #E6E6E0;
+    }
+    #recent-posts a.card-link-wrapper {
+      text-decoration: none;
+      color: inherit;
+      display: block;
+      height: 100%;
+    }
+  </style>
+
+  <div class="h3 text-center text-secondary py-3">
+    {{ .Site.Params.footer.recentPosts.title | default "Recent Posts" }}
+  </div>
+
+  <div class="row justify-content-center">
+    {{ range first $count (sort $all "Date" "desc") }}
+    <div class="col-lg-4 col-md-6 pt-2">
+      <a href="{{ .RelPermalink }}" class="card-link-wrapper">
+        <div class="card h-100">
+          {{ if and (not (.Site.Params.footer.recentPosts.disableFeaturedImage | default false)) (.Params.image) }}
+          <div class="card-header">
+            <img src="{{ .Params.image }}" class="card-img-top" alt="{{ .Title }}">
+          </div>
+          {{ end }}
+
+          <div class="card-body bg-transparent p-3 shadow-sm">
+            <h5 class="card-title" title="{{ .Title }}">{{ .Title }}</h5>
+
+            <small class="text-muted d-block mb-2">
+              {{ .Date.Format (.Site.Params.datesFormat.articleRecent | default "January 2, 2006") }}
+            </small>
+
+            <div class="card-text secondary-font">
+              <p class="rp-desc">
+                {{ with .Params.description }}
+                  {{ . }}
+                {{ else }}
+                  {{ .Summary | plainify | truncate 160 }}
+                {{ end }}
+              </p>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+    {{ end }}
+  </div>
+</div>
+{{ end }}

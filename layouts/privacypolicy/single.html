@@ -1,0 +1,53 @@
+{{ define "head" }}
+<meta name="description" content="{{ .Params.description }}">
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/single.css">
+<script defer src="{{ .Site.Params.staticPath }}/fontawesome-6/all-6.4.2.js"></script>
+
+<style>
+  /* Teal title & subheadings */
+  #single h1 { color: #0FA4AF !important; }
+  #single h2, #single h3, #single h4, #single h5, #single h6 { color: #0FA4AF !important; }
+
+  /* Home button */
+  .back-btn {
+    background-color: #222526;
+    color: #0FA4AF;
+    padding: 0.4rem 0.75rem;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color .2s ease, color .2s ease;
+    display: inline-block;
+  }
+  .back-btn:hover { background-color: #0FA4AF; color: #222526; }
+</style>
+{{ end }}
+
+{{ define "title" }}{{ .Title }} | {{ .Site.Title }}{{ end }}
+
+{{ define "main" }}
+<section id="single" style="min-height:100vh; padding-bottom:3rem; background-color: #191919;">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-12 col-md-12 col-lg-9">
+        <div class="pr-lg-4">
+
+          <!-- Home button only -->
+          <div class="mb-3">
+            <a href="{{ "/" | relURL }}" class="back-btn">⌂ Home</a>
+          </div>
+
+          <!-- Title -->
+          <div class="title mb-4">
+            <h1 class="text-center mb-2">{{ .Title }}</h1>
+          </div>
+
+          <!-- Content -->
+          <article class="page-content p-2">
+            {{ .Content | emojify }}
+          </article>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}

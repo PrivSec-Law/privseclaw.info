@@ -1,0 +1,389 @@
+baseURL: "/"
+languageCode: "en-gb"
+title: "Privacy, Security and the Law"
+theme: "hugo-profile"
+defaultContentLanguage: en-gb
+defaultContentLanguageInSubdir: false
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+enableRobotsTXT: true
+
+pagination:
+  pagerSize: 3
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blogs
+      name: Blog Posts
+      title: Blog Posts
+      url: /blogs
+      weight: 2
+    #Dropdown menu
+    - identifier: resources
+      title: Privacy and Security Resources
+      name: Privacy and Security Resources
+      url: /resources 
+      weight: 1
+    - identifier: privacypolicy
+      title: Privacy Policy
+      name: Privacy Policy
+      url: /privacypolicy
+      weight: 3
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Privacy, Security and Law"
+  description: Privacy guides, resources and the musings of a lawyer in training. ###### need to do this!!! 
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/favicon.png"
+
+  customCSS:
+    - css/custom.css
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  # If you want to load dynamically responsive images from Cloudinary
+  # This requires your images to be uploaded + hosted on Cloudinary
+  # Uncomment and change YOUR_CLOUD_NAME to the Cloud Name in your Cloudinary console
+  # cloudinary_cloud_name: "YOUR_CLOUD_NAME"
+
+  # Whether to add mathjax support on all pages. Alternatively, you can opt-in per page by adding `mathjax: true` in the frontmatter.
+  mathjax: false
+
+  # Whether the fade animations on the home page will be enabled
+  animate: true
+
+  theme:
+    disableThemeToggle: true
+    defaultTheme: "dark" # light
+
+  font:
+    fontSize: 1rem # default: 1rem
+    fontWeight: 400 # default: 400
+    lineHeight: 1.5 # default: 1.5
+    textAlign: left # default: left
+
+  color preference:
+
+  color:
+  # Light mode
+    textColor: "#1D1E20"                # Text on welcome my name is, Future solicitor..., bullets under, CV, top right menus, main text of box titles and content and blog content
+    secondaryTextColor: "#0FA4AF"       # Text of who I am, education etc on scroll down and box outline, and clickable box text in boxes
+    textLinkColor: "#0FA4AF"            # link text
+    backgroundColor: "#F4EDE4"          # background
+    secondaryBackgroundColor: "#F4EDE4" # no clue
+    primaryColor: "#0FA4AF"             # Privacy, Security & the Law, Luke Crofton Arbuthnot, social colors, cv box, bullet points
+    secondaryColor: "#E9E0D6"           # Picture outlines, box fill color, 
+
+  # Dark mode
+    darkmode:
+      textColor: "#E6E6E0"              # Text on welcome my name is, Future solicitor..., bullets under, CV, top right menus, main text of box titles and content and blog content
+      secondaryTextColor: "#E6E6E0"     # Text of who I am, education etc on scroll down and box outline, and clickable box text in boxes
+      textLinkColor: "#0FA4AF"          # link text
+      backgroundColor: "#1A1A1A"        # background
+      secondaryBackgroundColor: "#0FA4AF" # no clue
+      primaryColor: "#0FA4AF"           # Privacy, Security & the Law, Luke Crofton Arbuthnot, social colors, cv box, bullet points
+      secondaryColor: "#26292B"         # Picture outlines, box fill color, 
+
+  # If you want to customize the menu, you can change it here
+  navbar:
+    align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    brandName: "Privacy, Security & the Law" # Brand name for the brand | default is the title variable
+    disableSearch: true
+    # searchPlaceholder: "Search"
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: true
+    menus:
+      disableAbout: false
+      disableExperience: true
+      disableEducation: true
+      disableAchievements: true
+      disableProjects: true
+      disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Welcome, my name is"
+    title: "Luke Crofton Arbuthnot"
+    subtitle: "Aspiring Solicitor | LL.B. | LL.M. | CIPP/E"
+    content: "• Specialist in technology law — data protection, cybersecurity, AI governance, IP<br>• Certified Information Privacy Professional — academic & practical experience<br>• SQE1 Candidate (July 2026) — passionate about digital rights & privacy"
+    image: "/images/headshot.jpg"
+    bottomImage:
+      enable: true
+     # roundImage: false # Make hero image circular | default false
+    button:
+      enable: true
+      name: "Curriculum Vitae" 
+      url: "/files/luke_crofton_arbuthnot_cv.pdf" 
+      download: false
+      newPage: true
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/luke-crofton-arbuthnot-4bb337258/  
+        - icon: fas fa-envelope
+          url: "mailto:privseclaw@pm.me" 
+        - icon: fab fa-whatsapp
+          url: https://wa.me/qr/DCDYRPCFZEVNO1 
+        
+      customIcons:
+        - icon: /icons/signalmsg.svg          # path from /static
+          url: https://signal.me/#eu/o6aPpE4r_q6jwvhdXQP_KQEDJrzjMQwDULoVsG3dQWNS2cvcMKFH6q_OrDnblcYu
+          title: Signal      
+        - icon: /icons/rss.svg
+          url: /blogs/index.xml 
+           
+
+  # About
+  about:
+    enable: true
+    title: "About Me"
+    image: "/images/me.jpg"
+    content: |-
+      I am a recent Master of Laws graduate specialised in the digital domain. I hold the International Association of Privacy Professional's Certified Information Privacy Professional/ Europe (CIPP/E) certification. I am currently studying for the English and Welsh Solicitor's Qualifying Exam 1 (SQE1) in July 2026.
+
+      I have a keen interest in individual privacy and cybersecurity, implementing privacy enhancing tools and methods in my daily life. I also am an avid guitarist and am PADI Rescue Diver certified.
+
+    skills:
+      enable: true
+      title: "I have academic and hands on practical, legal and GRC experience in:"
+      items:
+        - "Data Protection"
+        - "Cybersecurity"
+        - "AI Governance"
+        - "Privacy"
+        - "Intellectual Property"
+        - "Regulatory Compliance"
+
+  # Experience
+  experience:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - job: "Intern - Security and Privacy Office (GRC)"
+        company: "Exact Group"
+        companyUrl: "https://www.exact.com/us"
+        date: "Oct 2024 - Feb 2025"
+        content: |
+          
+          - Conducted research on Exact's compliance with the EU AI Act and GDPR under DPO Pia Kuijpers. 
+          
+          - Delivered gap analysis report and presentation to key company stakeholders.
+        
+        featuredLink:
+          enable: true
+          name: "Letter of Recommendation"
+          url: "/files/LukeCroftonArbuthnotExactRecommendationLetter.pdf"
+      
+      - job: "AI Privacy & Governance Discussion Group Leader"
+        company: "AI Safety Initiative Groningen"
+        companyUrl: "https://www.aisig.org/"
+        date: "Sep 2024 - June 2025"
+        content: |
+
+          - Lead a discussion group on AI safety concerns with a focus on emerging data protection and privacy issues.
+
+      - job: "Chairman of the Activities Committee"
+        company: "Decentralized Student Law Association"
+        companyUrl: "https://www.linkedin.com/company/decentralized-student-association/"
+        date: "June 2022 - Aug 2023"
+        info:
+          enable: false
+          content: 
+        content: |
+          
+          - Chairman of the Activities Committee with competencies in planning, organising and executing academic and social events.
+
+          - Hosted a discussion panel on privacy, cybersecurity and the law with J. Milaj-Weishaar, PhD | STeP and G.P. Mifsud Bonnici, Prof Dr | STeP.
+
+  # Education
+  education:
+    enable: true
+    # title: "Custom Name"
+    index: false
+    items:
+
+      - title: "BARBRI Foundations of (English & Welsh) Law & Solicitors Qualifying Exam (SQE1) Preparation Course"
+        school: 
+          name: BARBRI SQE 
+          url: "https://www.barbri.com/"
+        date: "August 2025 - July 2026"
+
+      - title: "Master of Laws (LL.M.) in Technology Law and Innovation"
+        school:
+          name: "University of Groningen (Rijksuniversiteit Groningen)"
+          url: "https://www.rug.nl/masters/technology-law-and-innovation/?lang=en"
+        date: "August 2024 - December 2025"
+        GPA: "8.8 Cum Laude (High First Class equivalent)"
+        content: |- 
+          Awarded a grade of 9 for my master's thesis on the EU transparency and targeting of political advertising Regulation. During my studies, I completed practical assignments for Deloitte, Microsoft, the Autoriteit Persoonsgegevens (Dutch Data Protection Authority), and the Dienst Wegverkeer (Netherlands Vehicle Authority). Academic work covered domains including data protection, cybersecurity, intellectual property, competition law, consumer protection, sustainable technology law, and the legal and ethical frameworks surrounding data-driven innovation.
+
+          Currently undertaking an exchange semester at <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a> as part of the LL.M. programme, focusing on focusing on commercial, business, and finance law.
+
+          Extracurricular Activities:
+            - Active member of Groningen Debate Society Kalliope, participating in BP debate tournaments across the Netherlands.
+            - Won the Decentralized Student Law Association's intellectual property moot court.
+        featuredLink:
+          name: "Academic Record"
+          enable: false
+          url: "https://example.com"  
+
+      - title: "Bachelor of Laws (LL.B.) in International and European Law - Technology Law track specialisation"
+        school:
+          name: "University of Groningen (Rijksuniversiteit Groningen)"
+          url: "https://www.rug.nl/bachelors/international-and-european-law/#!programme"
+        date: "August 2020 - March 2024"
+        GPA: "7.5"
+        content: |-
+          Completed a broad legal education covering Dutch, European, and international law. Core areas included criminal law, contract and tort law, property law, constitutional law, comparative law, private international business law, EU law, and legal history. Additional focus areas included data protection and human rights, regulation of cybercrime, IT in the legal context, competition law in the digital market, telecommunications, intellectual property law, and law and economics.
+
+          Completed an exchange semester at <a href="https://www.surrey.ac.uk">University of Surrey</a>, studying English employment and medical law, jurisprudence, and international humanitarian law. 
+
+          Extracurricular Activities
+            - Committee chairman and active member of Decentralized Student Law Association.
+        featuredLink:
+          enable: false
+          name: "Academic record"
+          url: "https://example.com" 
+
+      - title: "Sixth Form College"
+        school:
+          name: "Dubai English Speaking School College"
+          url: "https://dess.sch.ae/"
+        GPA: "A*, A*, A, B"
+        featuredLink:
+          enable: false
+          name: "Academic record"
+          url: "https://example.com" #### find a way to host this!
+
+  # Achievements
+  achievements:
+    enable: true
+    title: "Certifications"
+    items:
+      - title: Certified Information Privacy Professional/Europe (CIPP/E)
+        content: "Passed the International Association of Privacy Professionals (IAPP) CIPP/E certification with a score of 442." 
+        url: images/cippescore.png
+        image: /images/cippe.png
+
+  # projects
+  projects:
+    enable: true
+    # title: "Custom Name"
+    items:
+      - title: Privacy, Security and the Law | Personal Website & Blog 
+        content: Designed and developed a personal professional website and blog using the Hugo static site generator. The blog focuses on practical guides to help individuals protect their personal privacy and security, alongside commentary on surveillance, privacy, and technology regulation. The site is fully GDPR compliant, with additional measures implemented to avoid processing personal data.
+        image: images/projects/websiteshowcase.png
+        featured:
+          name: Click for blog
+          link: /blogs
+        badges:
+          - "Web development"
+          - "Personal privacy & security"
+    
+        links:
+          - icon: fab fa-github
+            url: https://github.com/PrivSec-Law/privseclaw.info
+      
+
+      - title: Microsoft | Zero Trust Architecture & Regulatory Compliance
+        content: Collaborated with fellow LL.M. candidates as external consultants to Microsoft, advising on how Zero Trust Architecture (ZTA) can support compliance with the GDPR, DORA, and NIS2, tailored to GRC client contexts. Presented our findings at Microsoft, engaging in real-world legal-tech dialogue and demonstrating how compliance obligations can be embedded into system design. My primary contributions included analysing workplace surveillance risks associated with ZTA, explaining its technical implementation, and outlining practical steps for operationalising it within organisational systems and policies. Delivered these findings in both the final report and live presentation to Microsoft stakeholders.
+        image: /images/projects/zta.jpg
+        featured:
+          name: See more
+          link: https://www.linkedin.com/feed/update/urn:li:activity:7336783982694391809/
+        badges:
+          - "GRC"
+          - "Legal analysis"
+
+      - title: Autoriteit Persoonsgegevens | Advising on Targeted Political Advertising & its Regulation in the EU
+        content: Collaborated with a team of LL.M. candidates from the University of Groningen to analyse the societal risks and legal frameworks surrounding targeted political advertising in the EU and beyond. My contributions included researching and drafting sections on the legal regulation of political microtargeting, refining the final report, and coordinating a large multi-member team. Presented our findings at the Autoriteit Persoonsgegevens (Dutch Data Protection Authority), engaging directly with their team to discuss regulatory challenges and enforcement perspectives. This project deepened my expertise in online political advertising and its intersection with data protection law.
+        image: images/projects/dpa2.jpeg
+        featured:
+          name: See more
+          link: https://www.linkedin.com/feed/update/urn:li:activity:7313964884033986560/
+        badges:
+          - "Legal analysis"
+          - "Data protection"
+          - "Privacy"
+        
+
+  #Contact
+  contact:
+    enable: false
+    # title: "Custom Name"
+    content: My inbox is always open. Whether you have a question or just want to say hello, I’ll try my best to get back to you!
+    btnName: Mail me
+    btnLink: privseclaw@pm.me
+    # formspree:
+    #   enable: true # `contact.email` value will be ignored
+    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+    #   emailCaption: "Enter your email address"
+    #   messageCaption: "Enter your message here"
+    #   messageRows: 5
+
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+
+  # List pages like blogs and posts
+  listPages:
+    disableFeaturedImage: false
+
+  # Single pages like blog and post
+  singlePages:
+    socialShare: false
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true
+
+  # For translations
+  terms:
+    read: "Read"
+    toc: "Table Of Contents"
+    copyright: "All rights reserved"
+    pageNotFound: "Oepsie woepsie! De site zit stukkie wukkie!"
+    emailText: "Check out this site"
+
+  datesFormat:
+    article: "Jan 2, 2006"
+    articleList: "Jan 2, 2006"
+    articleRecent: "Jan 2, 2006"
+
+  #customScripts: -| # You can add custom scripts which will be added before </body> tag
+  #  <script type="text/javascript"><!-- any script here --></script>
