@@ -7,6 +7,8 @@ description: "Part 1 out of 3 on how to protect yourself online and regain contr
 toc: true
 ---
 
+{{< substack >}}
+
 ### 1. Down the Rabbit Hole
 
 If you are reading this post it is safe to assume that you are interested, to some degree, in protecting your personal privacy and security (PrivSec) in our age of hyper-digitization.
@@ -186,3 +188,5 @@ For a more in depth look into how to create an effective threat model and PrivSe
 _“Security is a process, not a product.”_ __-Bruce Schneier__
 
 * * * 
+
+{{< substack >}}

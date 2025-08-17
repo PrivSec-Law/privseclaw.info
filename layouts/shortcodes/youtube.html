@@ -1,0 +1,64 @@
+{{- $pos0 := .Get 0 -}}
+{{- $url  := .Get "url" -}}
+{{- $rawid := .Get "id" | default $pos0 | default (replaceRE `(?i).*(?:v=|youtu\.be/|/embed/)([A-Za-z0-9_-]{11}).*` `$1` ($url | default "")) -}}
+{{- $id   := $rawid -}}
+{{- $uid  := printf "yt-%d" .Ordinal -}}
+{{- $host := "https://www.youtube-nocookie.com" -}}
+{{- $src  := printf "%s/embed/%s?rel=0" $host $id -}}
+
+{{ if not $id }}
+<p style="color:#f66">youtube shortcode: missing video id/url</p>
+{{ else }}
+<div id="{{ $uid }}-box" style="position:relative;max-width:960px;margin:1rem auto;border-radius:12px;overflow:hidden;background:#111;">
+  <div style="position:relative;width:100%;padding-top:56.25%;">
+    <!-- stack order: img (z0) < slot (z1) < overlay (z2) -->
+    <img id="{{ $uid }}-img" alt="YouTube video thumbnail"
+         src="https://i.ytimg.com/vi/{{ $id }}/hqdefault.jpg"
+         style="position:absolute;inset:0;z-index:0;width:100%;height:100%;object-fit:cover;display:block;transition:filter .25s ease;filter:brightness(.85)">
+    <div id="{{ $uid }}-slot" style="position:absolute;inset:0;z-index:1;width:100%;height:100%"></div>
+    <div id="{{ $uid }}-overlay"
+         style="position:absolute;inset:0;z-index:2;display:flex;align-items:center;justify-content:center;gap:.6rem;flex-direction:column;background:linear-gradient(180deg,rgba(0,0,0,.25),rgba(0,0,0,.6));">
+      <button id="{{ $uid }}-btn" type="button"
+              style="padding:.6rem 1rem;border:none;border-radius:10px;font-weight:700;background:#12d6d6;color:#081314;cursor:pointer">
+        Load video
+      </button>
+      <p id="{{ $uid }}-note" style="font-size:.9rem;font-weight:600;color:#12d6d6;margin:0;text-align:center;padding:0 .75rem">
+        This will connect to YouTube
+      </p>
+    </div>
+  </div>
+</div>
+
+<script>
+(function(){
+  var box  = document.getElementById('{{ $uid }}-box');
+  var btn  = document.getElementById('{{ $uid }}-btn');
+  var slot = document.getElementById('{{ $uid }}-slot');
+  var img  = document.getElementById('{{ $uid }}-img');
+  var ovl  = document.getElementById('{{ $uid }}-overlay');
+
+  if(img && box){
+    box.addEventListener('mouseenter', function(){ img.style.filter='brightness(0.7)'; });
+    box.addEventListener('mouseleave', function(){ img.style.filter='brightness(0.85)'; });
+  }
+
+  if(btn && slot){
+    btn.addEventListener('click', function(){
+      try{
+        var ifr = document.createElement('iframe');
+        ifr.src = '{{ $src }}';
+        ifr.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+        ifr.allowFullscreen = true;
+        ifr.title = 'YouTube video';
+        ifr.setAttribute('frameborder','0');
+        ifr.style.width = '100%';
+        ifr.style.height = '100%';
+        slot.appendChild(ifr);
+        if(ovl) ovl.remove();
+        if(img) img.remove();
+      }catch(e){ console.error(e); }
+    }, { once:true });
+  }
+})();
+</script>
+{{ end }}

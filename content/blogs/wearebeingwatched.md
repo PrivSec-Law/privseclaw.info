@@ -7,6 +7,8 @@ toc: true
 image: "/images/manyscreens.jpg"
 ---
 
+{{< substack >}}
+
 ### 1. The Current Reality
 
 We are currently living in an age of hyper-digitization and constant internet connectivity, in which every online and increasingly physical action we take creates digital traces in the form of data; data about us. Whilst the use of this data brings with it many novel solutions to societal problems and is certainly increasing efficiency and efficacy in the realms of business, governance and many more, there is an enormous trade-off that many are simply not aware of, or fully understand the gravitas of. This trade-off is multi-faceted but can be broken down into the core concepts of [privacy and security](https://www.privacyguides.org/basics/common-threats/).
@@ -74,3 +76,5 @@ The situation is not completely bleak and I would urge readers to not succumb to
 _“Privacy is an inherent human right, and a requirement for maintaining the human condition with dignity and respect. It is about choice, and having the power to control how you present yourself to the world.”_ __\-Bruce Schneier, Data and Goliath: The Hidden Battles to Collect Your Data and Control Your World__
 
 * * * 
+
+{{< substack >}}

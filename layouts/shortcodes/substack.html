@@ -1,0 +1,87 @@
+{{- $action      := .Get "action"      | default "https://privseclaw.substack.com/api/v1/free" -}}
+{{- $placeholder := .Get "placeholder" | default "Type your email…" -}}
+{{- $button      := .Get "button"      | default "Subscribe" -}}
+{{- $uid := printf "sb-%d" .Ordinal -}}
+
+<div id="{{ $uid }}-wrap" style="max-width:640px;margin:1rem auto;text-align:center">
+  <button id="{{ $uid }}-toggle" type="button"
+          style="padding:.6rem 1rem;border:none;border-radius:8px;cursor:pointer;
+                 background:#12d6d6;color:#081314;font-weight:600;">
+    Subscribe
+  </button>
+  <p id="{{ $uid }}-note" style="font-size:.85rem;color:white;margin-top:.5rem">
+    This won’t contact substack.com until you submit.
+  </p>
+
+  <!-- hidden transport iframe for cross-origin POST without navigation -->
+  <iframe id="{{ $uid }}-transport" name="{{ $uid }}-transport" style="display:none"></iframe>
+
+  <form id="{{ $uid }}-form" action="{{ $action }}" method="post" target="{{ $uid }}-transport"
+        style="display:none; margin-top:.8rem; text-align:center">
+    <input id="{{ $uid }}-email" type="email" name="email" required
+           placeholder="{{ $placeholder }}" aria-label="Email address"
+           style="width:100%;padding:.7rem .9rem;border-radius:10px;border:1px solid rgba(255,255,255,.18);
+                  background:rgba(255,255,255,.05);color:#fff;outline:none;margin:0 0 .6rem 0;box-sizing:border-box">
+    <input type="hidden" name="redirect" value="https://privseclaw.substack.com/welcome">
+    <button type="submit"
+            style="width:100%;padding:.7rem 1rem;border:none;border-radius:10px;cursor:pointer;
+                   font-weight:700;background:#12d6d6;color:#081314">
+      {{ $button }}
+    </button>
+    <p style="font-size:.85rem;opacity:.85;color:#fff;margin:.6rem auto 0;
+              max-width:500px;line-height:1.4;text-align:center">
+      By subscribing you agree to receive new posts by email. Your information is handled in accordance with 
+      <a href="/privacypolicy/" style="color:#12d6d6;text-decoration:underline">this site’s privacy policy</a> 
+      and, once submitted to Substack, is additionally governed by 
+      <a href="https://substack.com/privacy" target="_blank" rel="noopener noreferrer"
+         style="color:#12d6d6;text-decoration:underline">Substack’s privacy policy</a>.
+    </p>
+  </form>
+
+  <div id="{{ $uid }}-thanks" style="display:none;margin-top:1rem;color:#12d6d6;font-weight:600;font-size:1.1rem;">
+    Thank you for subscribing! Check your inbox to confirm.
+  </div>
+</div>
+
+<script>
+(function(){
+  var root     = document.getElementById('{{ $uid }}-wrap');
+  if(!root) return;
+
+  var btn      = document.getElementById('{{ $uid }}-toggle');
+  var note     = document.getElementById('{{ $uid }}-note');
+  var form     = document.getElementById('{{ $uid }}-form');
+  var thanks   = document.getElementById('{{ $uid }}-thanks');
+  var iframe   = document.getElementById('{{ $uid }}-transport');
+
+  if(btn && form){
+    btn.addEventListener('click', function(){
+      form.style.display = 'block';
+      btn.remove();
+      // NOTE: keep 'note' visible until submission completes
+    }, { once: true });
+  }
+
+  if(form && iframe){
+    form.addEventListener('submit', function(){
+      // Fallback: show thanks even if iframe load doesn't fire
+      var timeout = setTimeout(function(){
+        form.style.display = 'none';
+        if(note) note.style.display = 'none';
+        if(thanks) thanks.style.display = 'block';
+      }, 2000);
+
+      var onLoad = function(){
+        clearTimeout(timeout);
+        form.style.display = 'none';
+        if(note) note.style.display = 'none';
+        if(thanks) thanks.style.display = 'block';
+        iframe.removeEventListener('load', onLoad);
+      };
+      iframe.addEventListener('load', onLoad);
+    });
+  }
+})();
+</script>
+
+{{/* usage: {{< substack >}} */}}

@@ -7,6 +7,8 @@ description: "Your Android keyboard could be a security and privacy risk. Here i
 toc: true
 ---
 
+{{< substack >}}
+
 ### 1. Your Android Keyboard is Most Likely Spying on You
 
 If you are using an Android device it is possible that your keyboard application is highly insecure and spying on you. 
@@ -103,3 +105,5 @@ For more information about FUTO as an organization, its mission and the backing 
 {{< youtube ugkWm6XGWo8 >}}
 
 * * *
+
+{{< substack >}}

@@ -7,6 +7,8 @@ description: "Big Tech, billionaires and whole lot of Artificial Intelligence lo
 toc: true
 ---
 
+{{< substack >}}
+
 ### 1. The Existential Threat of AI?
 
 There is currently a concerted effort to portray Artificial Intelligence developments as an [extinction level risk to humanity, on par with a nuclear war and deadly pandemics.](https://www.wired.com/story/runaway-ai-extinction-statement/) AI experts, namely [leaders and CEO's from Big Tech and adjacent industries, certain academics](https://www.safe.ai/work/statement-on-ai-risk) and billionaire backed philanthropy groups have all called for [state intervention and regulation of their own industry.](https://time.com/6280372/sam-altman-chatgpt-regulate-ai/)  The mass media, quick to pick up on claims of the oncoming AI apocalypse, have regurgitated these claims from the experts, drumming up popular apprehension amongst the general public, elected officials and policy makers.
@@ -169,3 +171,5 @@ It is my opinion that the ultimate threat posed by AI is not some doomsday extin
 _"The liberty of a democracy is not safe if the people tolerate the growth of private power to a point where it becomes stronger than their democratic state itself. That, in its essence, is Fascism—ownership of Government by an individual, by a group, or by any other controlling private power."_  __- [Franklin D. Roosevelt, 32nd President of the United States of America](https://www.presidency.ucsb.edu/documents/message-congress-curbing-monopolies)__
 
 * * *
+
+{{< substack >}}

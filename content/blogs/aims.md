@@ -9,6 +9,8 @@ description: "What I have set out to accomplish with this blog."
 toc: true
 ---
 
+{{< substack >}}
+
 ### The Aims of Privacy, Security and the Law
 
 The aims and purposes of this blog are:
@@ -26,3 +28,5 @@ The type of content to be expected from _Privacy, Security and the Law_ is:
 1.  Analysis of what I deem to be the most important news relating to online privacy/ security from a technical and legal point of view.    
 2.  Recommendations and guides on how to reclaim your digital privacy and improve your online security.
 3.  Opinions on issues and developments within the field of technology, digital politics and law.
+
+{{< substack >}}

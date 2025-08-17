@@ -15,6 +15,22 @@ outputs:
     - "RSS"
 
 enableRobotsTXT: true
+enableGitInfo: true
+
+privacy:
+  youtube:
+    privacyEnhanced: true
+    disable: false
+    enableDNT: true
+  x:                     # ← Twitter got renamed to "x"
+    enableDNT: true
+    simple: true
+  instagram:
+    simple: true
+  vimeo:
+    enableDNT: true
+  googleAnalytics:
+    anonymizeIP: true
 
 pagination:
   pagerSize: 3
@@ -23,6 +39,9 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  renderLinks:
+    target: "_blank"
+    rel: "noopener noreferrer"
 
 Menus:
   main:
@@ -51,7 +70,7 @@ Menus:
 
 params:
   title: "Privacy, Security and Law"
-  description: Privacy guides, resources and the musings of a lawyer in training. ###### need to do this!!! 
+  description: Privacy guides, resources and the musings of a lawyer in training.
   # staticPath: ""  # The path to serve the static files from
   favicon: "/favicon.png"
 
@@ -84,7 +103,7 @@ params:
     lineHeight: 1.5 # default: 1.5
     textAlign: left # default: left
 
-  color preference:
+
 
   color:
   # Light mode
@@ -336,17 +355,28 @@ params:
 
   #Contact
   contact:
-    enable: false
-    # title: "Custom Name"
-    content: My inbox is always open. Whether you have a question or just want to say hello, I’ll try my best to get back to you!
+    enable: true
+    title: "Get in Touch"
+    content: Feel free to reach out if you'd like to connect, collaborate, or just talk privacy and law.
     btnName: Mail me
-    btnLink: privseclaw@pm.me
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
+    btnLink: mailto:privseclaw@pm.me
+    
+    links:
+      - name: Email
+        icon: fas fa-envelope
+        url: "mailto:privseclaw@pm.me"
+
+      - name: LinkedIn
+        icon: fab fa-linkedin
+        url: "https://www.linkedin.com/in/luke-crofton-arbuthnot-4bb337258/"
+
+      - name: Signal
+        icon: "/icons/signalmsg2.svg"
+        url: "https://signal.me/#eu/o6aPpE4r_q6jwvhdXQP_KQEDJrzjMQwDULoVsG3dQWNS2cvcMKFH6q_OrDnblcYu"
+
+      - name: WhatsApp
+        icon: fab fa-whatsapp
+        url: "https://wa.me/qr/DCDYRPCFZEVNO1"
 
   footer:
     recentPosts:
