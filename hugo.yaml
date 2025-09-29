@@ -159,7 +159,7 @@ params:
     button:
       enable: true
       name: "Curriculum Vitae" 
-      url: "/files/luke_crofton_arbuthnot_cv.pdf" 
+      url: "/files/resumeOct2025.pdf" 
       download: false
       newPage: true
     socialLinks:
