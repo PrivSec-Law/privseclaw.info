@@ -23,8 +23,7 @@ By default, this site does not set non-essential cookies.
 
 Certain features on this site rely on third-party services. These are only activated if you choose to interact with them:
 
-- **YouTube videos**: Videos are embedded using a privacy-enhanced setup and only load once you actively click “Play.” At that point, your browser will connect to YouTube, which may set cookies or collect usage data. See [YouTube’s Privacy Policy](https://policies.google.com/privacy).  
-- **Substack email signup**: If you use the signup form to subscribe, your information will be sent directly to Substack. See [Substack’s Privacy Policy](https://substack.com/privacy).  
+- **YouTube videos**: Videos are embedded using a privacy-enhanced setup and only load once you actively click “Play.” At that point, your browser will connect to YouTube, which may set cookies or collect usage data. See [YouTube’s Privacy Policy](https://policies.google.com/privacy).   
 
 If you do not wish to share information with these third parties, you can simply choose not to interact with these elements.  
 

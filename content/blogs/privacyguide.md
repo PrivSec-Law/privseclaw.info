@@ -7,8 +7,6 @@ description: "Part 3 out of 3 on how to protect yourself online and regain contr
 toc: true
 ---
 
-{{< substack >}}
-
 ### 1. The Private Individual
 
 Are you growing concerned about the increasing concentration, consolidation, and expansion of informational power in the hands of seemingly unaccountable technology corporations and state actors? Do you wish to mitigate the sense of constant digital surveillance and monitoring every day? If so, let this post act as an introductory guide for you.
@@ -250,5 +248,3 @@ I also recommend checking out the Privacy and Security [Resources Page]({{< ref 
 _When people want privacy, they do not want to hide away their information from everyone; instead, they want to share it selectively and make sure that it is not used in harmful ways. Privacy is not all-or-nothing—it is about modulating boundaries and controlling data flow._ __-The Myth of the Privacy Paradox, Daniel J. Solove__
 
 * * * 
-
-{{< substack >}}

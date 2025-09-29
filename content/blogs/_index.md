@@ -9,5 +9,3 @@ toc: false
 ---
 
 * * * 
-
-{{< substack >}}

@@ -7,8 +7,6 @@ description: "The global push to undermine your privacy and security through cli
 toc: true
 ---
 
-{{< substack >}}
-
 ### 1. The Crypto Wars
 
 Since the advent of the ["Crypto Wars"](https://www.youtube.com/watch?v=lv8OFSWZkGs) (as in cryptography) starting in the early 1990’s, there has emerged a general global trend of intelligence services, law enforcement agencies and governments pushing back against the proliferation of so called 'warrant-proof' encryption: encrypted data that the state is technically unable to access. The [rationale](https://www.nytimes.com/2019/07/23/us/politics/william-barr-encryption-security.html) from these entities is that unlike traditional forms of data that are accessible following appropriate judicial safeguards such as a warrant, encrypted information circumvents the rule of law and the legitimacy and capabilities of criminal/ intelligence investigations. Typically invoking the age old ["Four Horsemen of the Infocalypse"](https://www.theguardian.com/technology/2014/oct/09/crypto-wars-redux-why-the-fbis-desire-to-unlock-your-private-life-must-be-resisted): a variation of child predators, terrorism, organized crime and money launderers, states have consistently, across the political spectrum, sought to [scare the general public](https://www.schneier.com/blog/archives/2019/12/scaring_people_.html) into supporting their encryption undermining efforts using [oversimplified and damaging narratives](https://sci-hub.se/https://doi.org/10.1016/j.clsr.2020.105526).
@@ -69,4 +67,3 @@ _Were CSS to be widely deployed, the only protection would lie in the law. That 
 
 * * * 
 
-{{< substack >}}

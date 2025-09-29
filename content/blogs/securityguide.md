@@ -7,8 +7,6 @@ description: "Part 2 out of 3 on how to protect yourself online and regain contr
 toc: true
 ---
 
-{{< substack >}}
-
 ### 1. Further Down the Rabbit Hole
 
 The focus for today is on the tangible steps you can take to enhance your digital security. This guide will encompass the types of software you can use, best practices and things to look out for and keep in mind.
@@ -87,5 +85,3 @@ Just like you wash your hands before eating and after using the toilet (hopefull
 _"People often represent the weakest link in the security chain and are chronically responsible for the failure of security systems."_  __-Bruce Schneier__ 
 
 * * * 
-
-{{< substack >}}

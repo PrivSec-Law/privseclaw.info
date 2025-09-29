@@ -7,8 +7,6 @@ description: "The future of political advertising and online manipulation."
 toc: true
 ---
 
-{{< substack >}}
-
 ### 1. What is Online Political Microtargeting?
 
 With society becoming increasingly digitized (“the integration of multiple technologies into all aspects of daily life”) the resulting abundance of personal data and information that can be amassed about the individual has only served to be [exponentially magnified](https://firstmonday.org/ojs/index.php/fm/article/view/4991). Corresponding to this rapidly growing and valuable [‘data economy’](https://www.weforum.org/agenda/2017/09/the-value-of-data/), the use of personal data for political purposes has also risen, massively increasing the prevalence of data-driven political campaigns. Amongst the various tools and methods available to apply personal data towards political purposes, it is this posts’ view that online political microtargeting (OPMT) stands out, with its historically unprecedented usage yielding [ramifications](https://www.tandfonline.com/doi/full/10.1080/07393148.2015.1125119) for the rights to privacy; electoral fairness and on a broader scale fundamental [democratic processes](https://policyreview.info/data-driven-elections) and concepts.
@@ -68,5 +66,3 @@ I will end with a short video from VICE News that really drives the point home. 
 _One persona bot can’t move public opinion, but what if there were thousands of them? Millions? … AI has the potential to make the future supply of disinformation spreaders infinite._ **\-Bruce Schneier, A Hackers Mind: How the powerful bend society’s rules and how to bend them back**
 
 * * *
-
-{{< substack >}}
