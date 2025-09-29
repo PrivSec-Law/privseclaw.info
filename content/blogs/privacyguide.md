@@ -5,6 +5,7 @@ draft: false
 image: /images/facebookwatchingscreen.jpg
 description: "Part 3 out of 3 on how to protect yourself online and regain control over your privacy."
 toc: true
+weight: 3
 ---
 
 ### 1. The Private Individual

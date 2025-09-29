@@ -1,7 +1,7 @@
 ---
 title: "The AI Panic: Big Tech, Open-source and Monopoly Power"
 date: 2024-06-29
-draft: false
+draft: true
 image: /images/eyewatchingmandesk.jpeg
 description: "Big Tech, billionaires and whole lot of Artificial Intelligence lobbying."
 toc: true

@@ -3,7 +3,7 @@ title: "Aims and Purpose of Privacy, Security and the Law"
 date: 2023-12-22
 type: blogs
 layout: single
-draft: false
+draft: true
 image: 
 description: "What I have set out to accomplish with this blog."
 toc: true

@@ -5,6 +5,7 @@ draft: false
 image: /images/threatmodelcover.jpg
 description: "Part 1 out of 3 on how to protect yourself online and regain control over your privacy."
 toc: true
+weight: 1 
 ---
 
 ### 1. Down the Rabbit Hole

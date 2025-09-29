@@ -5,6 +5,7 @@ draft: false
 image: /images/securitycover.jpg
 description: "Part 2 out of 3 on how to protect yourself online and regain control over your privacy."
 toc: true
+weight: 2
 ---
 
 ### 1. Further Down the Rabbit Hole
