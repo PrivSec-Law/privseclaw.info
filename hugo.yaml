@@ -150,7 +150,7 @@ params:
     enable: true
     intro: "Welcome, my name is"
     title: "Luke Crofton Arbuthnot"
-    subtitle: "Aspiring Solicitor | LL.B. | LL.M. | CIPP/E"
+    subtitle: "Aspiring Solicitor | LLB | LLM | CIPP/E"
     content: "• Academic specialisation in technology law — data protection, cybersecurity, AI governance, IP<br>• Certified Information Privacy Professional — academic & practical experience<br>• SQE1 Candidate (July 2026) — passionate about digital rights & privacy"
     image: "/images/headshot.jpg"
     bottomImage:
