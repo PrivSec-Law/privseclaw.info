@@ -159,7 +159,7 @@ params:
     button:
       enable: true
       name: "Curriculum Vitae" 
-      url: "/files/resumeOct2025.pdf" 
+      url: "/files/CVFEB2026.pdf" 
       download: false
       newPage: true
     socialLinks:
@@ -185,7 +185,7 @@ params:
     title: "About Me"
     image: "/images/me.jpg"
     content: |-
-      I am a recent Master of Laws graduate specialised in the digital domain. I hold the International Association of Privacy Professional's Certified Information Privacy Professional/ Europe (CIPP/E) certification. I am currently studying for the English and Welsh Solicitor's Qualifying Exam 1 (SQE1) in July 2026.
+      I am a Master of Laws graduate specialised in the digital domain. I hold the International Association of Privacy Professional's Certified Information Privacy Professional/ Europe (CIPP/E) certification. I am currently studying for the English and Welsh Solicitor's Qualifying Exam 1 (SQE1) in July 2026.
 
       I have a keen interest in individual privacy and cybersecurity, implementing privacy enhancing tools and methods in my daily life. I also am an avid guitarist and am PADI Rescue Diver certified.
 
@@ -205,7 +205,37 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - job: "Intern - Security and Privacy Office (GRC)"
+      
+      - job: "Legal Intern - Technology, Media & Telecommunications"
+        company: "Simmons and Simmons Middle East"
+        companyUrl: "https://www.simmons-simmons.com/en/expertise/sector/tmt/technology"
+        date: "Feb 2026 - May 2026"
+        content: |
+          
+          - Joined Simmons & Simmons as part of its Dubai based 3 month vacation scheme internship programme. 
+        
+        featuredLink:
+          enable: false
+          name: "Letter of Recommendation"
+          url:
+
+
+      - job: "Legal Intern - Intellectual Property"
+        company: "Abion IP Limited"
+        companyUrl: "https://abion.com/"
+        date: "Feb 2026 - Feb 2026"
+        content: |
+          
+          - Drafted cease and desist letters for matters related to trade mark infringement. Conducted due diligence research on trade mark rights related to client's asset acquisitions. 
+          
+          - Gained practical experience in trade mark practice. Learned about trade mark registration and enforcement best practices. Used trade mark registries and software (Corsearch).
+        
+        featuredLink:
+          enable: false
+          name: "Letter of Recommendation"
+          url: 
+
+      - job: "Data Protection Intern - Security and Privacy Office (GRC)"
         company: "Exact Group"
         companyUrl: "https://www.exact.com/us"
         date: "Oct 2024 - Feb 2025"
@@ -263,7 +293,7 @@ params:
         content: |- 
           Awarded a grade of 9 for my master's thesis on the EU transparency and targeting of political advertising Regulation. During my studies, I completed practical assignments for Deloitte, Microsoft, the Autoriteit Persoonsgegevens (Dutch Data Protection Authority), and the Dienst Wegverkeer (Netherlands Vehicle Authority). Academic work covered domains including data protection, cybersecurity, intellectual property, competition law, consumer protection, sustainable technology law, and the legal and ethical frameworks surrounding data-driven innovation.
 
-          Currently undertaking an exchange semester at <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a> as part of the LL.M. programme, focusing on commercial, business, and finance law.
+          Undertook an exchange semester at <a href="https://www.ntu.edu.tw/english/">National Taiwan University</a> as part of the LL.M. programme, focusing on commercial, business, and finance law.
 
           Extracurricular Activities:
             - Active member of Groningen Debate Society Kalliope, participating in BP debate tournaments across the Netherlands.
